@@ -1,0 +1,20 @@
+# Built data and downloaded filings: too large for git, and rebuilt by the scripts
+.store/
+space/.store/
+corpus/
+
+# Holds local folder paths
+docs.csv
+
+# Run output and old drafts
+__pycache__/
+*.log
+*_stderr.txt
+agent_smoke*.txt
+agent_traced*.txt
+ui_ask_test*.txt
+*.pdf
+
+# Secrets never go in the repo
+.env
+.env.*

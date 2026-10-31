@@ -1,0 +1,158 @@
+=== Stylam: health check, FY26 ===
+These checks explain what the filings say. They are not advice to buy, sell or hold. Judging the share price needs the live price and your own judgement, which the filings do not have.
+
+1. Is the profit real?  [Looks fine]
+   Rule: Looks fine when one-off items are under 10.0% of profit, tax is between 15.0% and 35.0% of profit (the usual company rate in India is about 25%), and other income is under 30.0% of profit before tax.
+   Finding: Profit before tax was ₹202.89 crore and profit after tax ₹149.47 crore in FY26. There were no one-off (exceptional) items. Tax took 26.3% of profit before tax. Other income (interest, dividends, gains on investments; not the main business) was ₹6.74 crore, equal to 3.3% of profit before tax.
+   What it means: Profit can be lifted by things that will not happen again: a one-off gain, an unusually low tax bill, or income from investments rather than from selling the company's products.
+   Why it matters: The profit that repeats next year is the part that comes from the main business at a normal tax rate.
+   - FY26 Profit before tax: 20,289.38 ₹ lakh  [Stylam annual report FY26, PDF p150 (printed 167)]
+   - FY26 Profit for the year (after tax): 14,947.35 ₹ lakh  [Stylam annual report FY26, PDF p150 (printed 167)]
+   - FY26 Exceptional items (effect on profit; a minus means they cut profit): 0.00 ₹ lakh  [Stylam annual report FY26, PDF p150 (printed 167)]
+   - FY26 Other income: 673.61 ₹ lakh  [Stylam annual report FY26, PDF p150 (printed 167)]
+
+2. Is the profit backed by cash?  [Worth a closer look]
+   Rule: Looks fine when cash from operations is at least 1.0 times profit after tax, added up over 3 years (after rent, for a company that leases its premises).
+   Finding: Over FY24-FY26, the company reported ₹399.70 crore of profit after tax and brought in ₹393.73 crore of cash from its operations: 0.99 times the profit. Year by year, cash from operations ÷ profit: FY24 0.85, FY25 0.88, FY26 1.18. FY24 cash from operations was first reported as 112.92 in the FY24 report (PDF p128); the later report's figure is used.
+   What it means: Profit is an accounting figure; cash is money actually received. A sale on credit counts as profit before the customer pays. If cash keeps falling short of profit, money is getting stuck in unpaid bills or stock.
+   Why it matters: A company pays salaries, suppliers and dividends with cash, not with profit.
+   - FY24 Net cash from operating activities (CFO): 10,918.52 ₹ lakh  [Stylam annual report FY25, PDF p145 (printed 164)]
+   - FY25 Net cash from operating activities (CFO): 10,746.12 ₹ lakh  [Stylam annual report FY26, PDF p151 (printed 168)]
+   - FY26 Net cash from operating activities (CFO): 17,708.35 ₹ lakh  [Stylam annual report FY26, PDF p151 (printed 168)]
+   - FY24 Profit for the year (after tax): 12,839.84 ₹ lakh  [Stylam annual report FY25, PDF p144 (printed 163)]
+   - FY25 Profit for the year (after tax): 12,183.02 ₹ lakh  [Stylam annual report FY26, PDF p150 (printed 167)]
+   - FY26 Profit for the year (after tax): 14,947.35 ₹ lakh  [Stylam annual report FY26, PDF p150 (printed 167)]
+
+3. How much does it owe?  [Looks fine]
+   Rule: Looks fine when cash, bank deposits and current investments cover borrowings plus lease liabilities.
+   Finding: At 31 March 2026: borrowings ₹29.09 crore. Against that it held cash ₹65.21 crore, bank deposits ₹2.25 crore: ₹67.46 crore in all. So it holds ₹38.37 crore more than it owes. Its borrowings are small next to its cash, but they are not zero.
+   What it means: Borrowings are loans from banks or lenders. Lease liabilities are rent promised to landlords. Both have to be paid whether business is good or bad.
+   Why it matters: A company with more cash than debt can get through a bad year; one with more debt than cash depends on its lenders.
+   - FY26 Borrowings (non-current plus current): 2,908.90 ₹ lakh  [Stylam annual report FY26, PDF p149 (printed 166)]
+   - FY26 Cash and cash equivalents: 6,521.04 ₹ lakh  [Stylam annual report FY26, PDF p149 (printed 166)]
+   - FY26 Bank balances other than cash and cash equivalents (deposits): 224.81 ₹ lakh  [Stylam annual report FY26, PDF p149 (printed 166)]
+
+4. Hidden claims (contingent liabilities)  [Looks fine]
+   Rule: Looks fine when disputed claims are at most 10.0% of net worth.
+   Finding: At 31 March 2026, claims against the company that it disputes came to ₹15.62 crore, which is 1.9% of its net worth of ₹806.80 crore. A year earlier they were ₹35.93 crore (down). The claims: Income tax ₹15.45 crore, GST ₹0.17 crore.
+   What it means: A contingent liability is a claim the company disputes, such as a tax demand it is fighting. It is not in the balance sheet's debts; it is paid only if the company loses.
+   Why it matters: If the company loses, the money comes out of the owners' share of the company (its net worth).
+   - FY26 Contingent liabilities (claims against the company it disputes): 1,561.72 ₹ lakh  [Stylam annual report FY26, PDF p174 (printed 191)]
+   - FY26 Total equity (net worth): 80,679.77 ₹ lakh  [Stylam annual report FY26, PDF p149 (printed 166)]
+
+5. Did the auditor raise concerns?  [Looks fine]
+   Rule: Looks fine when the opinion is unmodified ('true and fair view') with no emphasis-of-matter or going-concern paragraph. Other remarks are shown but do not change the label.
+   Finding: The auditor's opinion for FY26 is unmodified: the accounts 'give a true and fair view'. By year: FY22: unmodified; FY23: unmodified; FY24: unmodified; FY25: unmodified; FY26: unmodified
+   What it means: An auditor is an outside accountant who checks the accounts. A 'modified' opinion means they disagree with something or could not check it; an emphasis of matter points to an issue readers should know about without disagreeing.
+   Why it matters: The auditor is the only outsider who has looked inside the books; a warning from them is rare and worth reading.
+   - FY26 Independent auditor's report:   [Stylam annual report FY26, PDF p138 (printed 155)]
+
+6. Money moving to the owners' other companies (related parties)  [Looks fine]
+   Rule: Looks fine when pay to key people is at most 10.0% of profit after tax and other dealings with the owners' side are at most 1.0% of revenue.
+   Finding: In FY26 the company paid its key people (directors, top managers and their relatives) ₹8.36 crore in salary, 5.6% of its profit after tax of ₹149.47 crore (FY25: ₹8.13 crore). The rows add up to the total the note prints (835.50 as printed). Other dealings with companies the owners control, and with key people themselves, came to ₹0.36 crore, 0.03% of revenue (FY25: ₹0.13 crore). The largest: purchase with Gourmet House Private Limited ₹0.33 crore, sales with Mr. Jagdish Gupta (Managing Director) ₹0.02 crore, sales with Mr.Manav Gupta(wholeTimeDirector) ₹0.01 crore.
+   What it means: A related party is someone close to the company: its directors and top managers, their relatives, and companies they control. Paying them, renting from them or buying from them is legal and common, and the law asks the company to list every such deal in this note.
+   Why it matters: A deal with an insider can be priced to suit the insider rather than the company. The bigger these deals are next to revenue and profit, the more it matters whether they are fair.
+   - FY26 Revenue from operations: 112,929.39 ₹ lakh  [Stylam annual report FY26, PDF p150 (printed 167)]
+   - FY26 Profit for the year (after tax): 14,947.35 ₹ lakh  [Stylam annual report FY26, PDF p150 (printed 167)]
+   - FY26 Related party disclosures (read by OCR of 3 sideways pages): 16 rows  [Stylam annual report FY26, PDF p179, PDF p180, PDF p181, PDF p182]
+
+7. Does management do what it says?  [no label yet]
+   Rule: Looks fine when no promised date or target was later moved back.
+   Finding: The model's reply did not follow the format, so no label is given. Its reply (Qwen/Qwen2.5-0.5B-Instruct): Promises management made about dates or targets:
+
+1. Jagdish Rai Gupta: "It will be delayed by 2-3 months"
+   Later: "September, middle of September or maximum end of September we will start our full production in new plant."
+   Status: "Understood"
+
+2. Aditya Pal: "We are saying that from, say, September, end of September, the full-scale revenue will start from the new plant"
+   Later: "The pending INR160 crores will be spent?"
+   Status: "Nothing later"
+
+3. Jagdish Rai Gupta: "Minimum, yes, sure"
+   Later: "We cannot, it will be definitely 20%, 25% increase than the previous. Again, depends 
+   What it means: On earnings calls managers say what they plan: a new plant by a date, a growth target. This check sets those promises against what later calls and filings report.
+   Why it matters: A team that keeps moving its dates is telling you how much weight to give its next promise.
+   - 2025-05-30 Stylam Industries | Earnings call Q4 FY25, filed 2025-05-30 | Earnings: Jagdish Rai Gupta: | It will be delayed by 2-3 months, so we put one new press in our existing plant and we ar  [[1] Stylam-008 PDF p4]
+   - 2025-05-30 Stylam Industries | Earnings call Q4 FY25, filed 2025-05-30 | Earnings: Jagdish Rai Gupta: | Actually, plant is almost near full machinery under like you can say -- building is almos  [[2] Stylam-008 PDF p5]
+   - 2026-01-23 Stylam Industries | Results Q3 FY26, filed 2026-01-23 | Notes to accou: new plant in Panchkula Haryana, which will be its 8. The company is expanding its manufacturing capacity with   [[3] Stylam-021 PDF p9]
+   - 2026-02-04 Stylam Industries | Earnings call Q3 FY26, filed 2026-02-04 | Earnings: Manit Gupta: No matter how much growth is there, that is why we mentioned that next year, that is our target f  [[4] Stylam-023 PDF p18]
+   - 2026-05-16 Stylam Industries | Earnings call Q4 FY26, filed 2026-05-16 | Earnings: Chetan Sharma: Thanks for the opportunity. Sir, my first question is regarding the new plant progress. You men  [[5] Stylam-029 PDF p3]
+   - 2026-05-16 Stylam Industries | Earnings call Q4 FY26, filed 2026-05-16 | Earnings: Keshav Lahoti: | Hi thank you for the opportunity. Actually, addressed to you said INR300 crores from new plan  [[6] Stylam-029 PDF p10]
+   - 2026-05-16 Stylam Industries | Earnings call Q4 FY26, filed 2026-05-16 | Earnings: Nishita: Yes. So, I actually just had a clarification on the guidance that you gave. You initially said that f  [[7] Stylam-029 PDF p12]
+   - 2026-05-16 Stylam Industries | Earnings call Q4 FY26, filed 2026-05-16 | Earnings: Pankaj: | I have a couple of quick questions. One is we just heard the guidance of 25-odd percent for FY27. We  [[8] Stylam-029 PDF p12]
+
+=== Speciality: health check, FY26 ===
+These checks explain what the filings say. They are not advice to buy, sell or hold. Judging the share price needs the live price and your own judgement, which the filings do not have.
+
+1. Is the profit real?  [Worth a closer look]
+   Rule: Looks fine when one-off items are under 10.0% of profit, tax is between 15.0% and 35.0% of profit (the usual company rate in India is about 25%), and other income is under 30.0% of profit before tax.
+   Finding: Profit before tax was ₹29.45 crore and profit after tax ₹22.95 crore in FY26. One-off (exceptional) items cut profit by ₹3.34 crore, 10.2% of the profit before them; without them, profit before tax would have been ₹32.79 crore. Tax took 22.1% of profit before tax. Other income (interest, dividends, gains on investments; not the main business) was ₹17.70 crore, equal to 60.1% of profit before tax. Outside the usual range: one-off items, other income.
+   What it means: Profit can be lifted by things that will not happen again: a one-off gain, an unusually low tax bill, or income from investments rather than from selling the company's products.
+   Why it matters: The profit that repeats next year is the part that comes from the main business at a normal tax rate.
+   - FY26 Profit before tax: 2,945.23 ₹ lakh  [Speciality annual report FY26, PDF p140 (printed 136)]
+   - FY26 Profit for the year (after tax): 2,295.00 ₹ lakh  [Speciality annual report FY26, PDF p140 (printed 136)]
+   - FY26 Exceptional items (effect on profit; a minus means they cut profit): -334.38 ₹ lakh  [Speciality annual report FY26, PDF p140 (printed 136)]
+   - FY26 Other income: 1,769.93 ₹ lakh  [Speciality annual report FY26, PDF p140 (printed 136)]
+
+2. Is the profit backed by cash?  [Looks fine]
+   Rule: Looks fine when cash from operations is at least 1.0 times profit after tax, added up over 3 years (after rent, for a company that leases its premises).
+   Finding: Over FY24-FY26, the company reported ₹71.05 crore of profit after tax and brought in ₹217.75 crore of cash from its operations: 3.06 times the profit. It also paid ₹140.76 crore in rent on leased premises. The accounts count that rent as financing, not operations, so after paying it the cash is ₹76.99 crore: 1.08 times the profit. The label uses this figure. Year by year, cash from operations ÷ profit: FY24 2.26, FY25 3.41, FY26 3.67.
+   What it means: Profit is an accounting figure; cash is money actually received. A sale on credit counts as profit before the customer pays. If cash keeps falling short of profit, money is getting stuck in unpaid bills or stock.
+   Why it matters: A company pays salaries, suppliers and dividends with cash, not with profit.
+   - FY24 Net cash from operating activities (CFO): 602.09 ₹ million  [Speciality annual report FY25, PDF p144 (printed 141)]
+   - FY25 Net cash from operating activities (CFO): 7,321.39 ₹ lakh  [Speciality annual report FY26, PDF p141 (printed 137)]
+   - FY26 Net cash from operating activities (CFO): 8,432.57 ₹ lakh  [Speciality annual report FY26, PDF p141 (printed 137)]
+   - FY24 Profit for the year (after tax): 266.51 ₹ million  [Speciality annual report FY25, PDF p143 (printed 140)]
+   - FY25 Profit for the year (after tax): 2,144.51 ₹ lakh  [Speciality annual report FY26, PDF p140 (printed 136)]
+   - FY26 Profit for the year (after tax): 2,295.00 ₹ lakh  [Speciality annual report FY26, PDF p140 (printed 136)]
+   - FY24 Rent paid on leased premises (shown under financing; a minus is cash o: -432.84 ₹ million  [Speciality annual report FY25, PDF p145 (printed 142)]
+   - FY25 Rent paid on leased premises (shown under financing; a minus is cash o: -4,685.90 ₹ lakh  [Speciality annual report FY26, PDF p142 (printed 138)]
+
+3. How much does it owe?  [Looks fine]
+   Rule: Looks fine when cash, bank deposits and current investments cover borrowings plus lease liabilities.
+   Finding: At 31 March 2026: borrowings ₹0.00 crore, plus ₹139.94 crore of lease liabilities (rent it has agreed to pay landlords in future years, which the accounts treat like a loan). Against that it held cash ₹5.25 crore, bank deposits ₹0.02 crore, current investments such as mutual funds ₹162.49 crore: ₹167.76 crore in all. So it holds ₹27.82 crore more than it owes.
+   What it means: Borrowings are loans from banks or lenders. Lease liabilities are rent promised to landlords. Both have to be paid whether business is good or bad.
+   Why it matters: A company with more cash than debt can get through a bad year; one with more debt than cash depends on its lenders.
+   - FY26 Lease liabilities (rent owed on leased premises): 13,994.45 ₹ lakh  [Speciality annual report FY26, PDF p139 (printed 135)]
+   - FY26 Cash and cash equivalents: 524.92 ₹ lakh  [Speciality annual report FY26, PDF p139 (printed 135)]
+   - FY26 Bank balances other than cash and cash equivalents (deposits): 2.07 ₹ lakh  [Speciality annual report FY26, PDF p139 (printed 135)]
+   - FY26 Current investments (mostly mutual funds): 16,248.51 ₹ lakh  [Speciality annual report FY26, PDF p139 (printed 135)]
+
+4. Hidden claims (contingent liabilities)  [Looks fine]
+   Rule: Looks fine when disputed claims are at most 10.0% of net worth.
+   Finding: At 31 March 2026, claims against the company that it disputes came to ₹28.99 crore, which is 8.4% of its net worth of ₹347.00 crore. A year earlier they were ₹30.02 crore (down). The claims: Sales tax demands ₹13.07 crore, Income tax demands ₹0.09 crore, Service tax demands ₹7.88 crore, Goods and service tax demands ₹7.95 crore.
+   What it means: A contingent liability is a claim the company disputes, such as a tax demand it is fighting. It is not in the balance sheet's debts; it is paid only if the company loses.
+   Why it matters: If the company loses, the money comes out of the owners' share of the company (its net worth).
+   - FY26 Contingent liabilities (claims against the company it disputes): 2,899.00 ₹ lakh  [Speciality annual report FY26, PDF p179 (printed 175)]
+   - FY26 Total equity (net worth): 34,700.44 ₹ lakh  [Speciality annual report FY26, PDF p139 (printed 135)]
+
+5. Did the auditor raise concerns?  [Looks fine]
+   Rule: Looks fine when the opinion is unmodified ('true and fair view') with no emphasis-of-matter or going-concern paragraph. Other remarks are shown but do not change the label.
+   Finding: The auditor's opinion for FY26 is unmodified: the accounts 'give a true and fair view'. The auditor noted one exception about the books of account: under Rule 11(g) the accounting software must keep an unchangeable log of every edit (an audit trail), and this was not fully met. This is a record-keeping point, not a finding that the figures are wrong. By year: FY22: unmodified, emphasis of matter ("We draw attention to Note 39 to the standalone financial statements, which describes the possible effect of uncertainties relating to COVID-19 pandemic on the Company’s financial performance and impact on the carrying value of its assets as at March 31, 2022, as assessed by the management."); FY23: unmodified, emphasis of matter ("Note 35 to the standalone financial results, which describes the recognition of deferred tax asset of Rs 333.88 million."); FY24: unmodified; FY25: unmodified; FY26: unmodified, books exception
+   What it means: An auditor is an outside accountant who checks the accounts. A 'modified' opinion means they disagree with something or could not check it; an emphasis of matter points to an issue readers should know about without disagreeing.
+   Why it matters: The auditor is the only outsider who has looked inside the books; a warning from them is rare and worth reading.
+   - FY26 Independent auditor's report:   [Speciality annual report FY26, PDF p131 (printed 127)]
+
+6. Money moving to the owners' other companies (related parties)  [Worth a closer look]
+   Rule: Looks fine when pay to key people is at most 10.0% of profit after tax and other dealings with the owners' side are at most 1.0% of revenue.
+   Finding: In FY26 the company paid its key people (directors, top managers and their relatives) ₹3.41 crore in salary, 14.9% of its profit after tax of ₹22.95 crore (FY25: ₹3.15 crore). Other dealings with companies the owners control, and with key people themselves, came to ₹8.65 crore, 1.9% of revenue (FY25: ₹7.92 crore). The largest: rent expenses with Situations Advertising & Marketing Services Private Limited ₹4.96 crore, reimbursement of expenses with Situations Advertising & Marketing Services Private Limited ₹1.20 crore, rent expenses with Prosperous Promotors LLP ₹0.71 crore. The owners' side also holds ₹8.72 crore of the company's money, mostly as security deposits.
+   What it means: A related party is someone close to the company: its directors and top managers, their relatives, and companies they control. Paying them, renting from them or buying from them is legal and common, and the law asks the company to list every such deal in this note.
+   Why it matters: A deal with an insider can be priced to suit the insider rather than the company. The bigger these deals are next to revenue and profit, the more it matters whether they are fair.
+   - FY26 Revenue from operations: 45,359.41 ₹ lakh  [Speciality annual report FY26, PDF p140 (printed 136)]
+   - FY26 Profit for the year (after tax): 2,295.00 ₹ lakh  [Speciality annual report FY26, PDF p140 (printed 136)]
+   - FY26 Related party disclosures (read by text layer): 43 rows  [Speciality annual report FY26, PDF p173, PDF p174, PDF p175]
+
+7. Does management do what it says?  [no label yet]
+   Rule: Looks fine when no promised date or target was later moved back.
+   Finding: The model's lines did not cite a source for both the promise and what happened later, so no label is given. Its reply (Qwen/Qwen2.5-0.5B-Instruct): PROMISE: We have already signed 8 restaurants during this financial year | SAID: 2025-05-15 | TARGET: 8 to 10 new restaurants every year | LATER: 2026-05-26 | STATUS: Done
+   What it means: On earnings calls managers say what they plan: a new plant by a date, a growth target. This check sets those promises against what later calls and filings report.
+   Why it matters: A team that keeps moving its dates is telling you how much weight to give its next promise.
+   - 2025-05-15 Speciality Restaurants | Earnings call Q4 FY25, filed 2025-05-15 | Ear: Avik mentioned, that we have already signed 8 restaurants during this financial year, the basic idea is that w  [[1] Speciality-041 PDF p8]
+   - 2025-08-09 Speciality Restaurants | Annual report FY25, filed 2025-08-09 | Manage: The charge for depreciation on Property, Plant & Equipment increased on account of capital expenditure of new   [[2] Speciality-046 PDF p103 (printed 100)]
+   - 2025-08-09 Speciality Restaurants | Annual report FY25, filed 2025-08-09 | Manage: d) Finance Costs (` In Millions) / 2024-25 | 2023-24 | Change (`) | Change (%) / Finance Costs | 142.34 | 146.  [[3] Speciality-046 PDF p103 (printed 100)]
+   - 2025-08-09 Speciality Restaurants | Earnings call Q1 FY26, filed 2025-08-09 | Ear: Vivek: So my first question is regarding any guidance about revenue growth and EBITDA margin. / Rajesh Mohta:   [[4] Speciality-045 PDF p7]
+   - 2026-02-16 Speciality Restaurants | Earnings call Q3 FY26, filed 2026-02-16 | Ear: Rajesh Kumar Mohta: Good evening, participants. This is Rajesh Mohta, CFO of the company. In order to highligh  [[5] Speciality-056 PDF p3]
+   - 2026-05-26 Speciality Restaurants | Earnings call Q4 FY26, filed 2026-05-26 | Ear: Avik Chatterjee: | Yes. In fact, this year itself, we have scheduled to launch 8 new restaurants, 15 new Walte  [[6] Speciality-059 PDF p12]
+   - 2026-08-18 Speciality Restaurants | Annual report FY26, filed 2026-08-18 | Manage: The charge for depreciation on Property, Plant & Equipment increased on account of capital expenditure of new   [[7] Speciality-066 PDF p100 (printed 96)]
+   - 2026-08-18 Speciality Restaurants | Annual report FY26, filed 2026-08-18 | Manage: The outlook for the food services industry remains structurally positive, underpinned by the shift towards org  [[8] Speciality-066 PDF p98 (printed 94)]
+

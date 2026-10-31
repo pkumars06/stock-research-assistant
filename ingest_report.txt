@@ -1,0 +1,8 @@
+Ingest run 2026-10-18: 70 documents, 67 kept, 3 near-duplicates dropped
+  Stylam: 34 documents, 1,677 pages (80 OCR'd), 6,336 chunks
+  Speciality: 33 documents, 1,496 pages (45 OCR'd), 6,149 chunks
+Chunks by document type: annual_report 9,649, governance 849, results 626, transcript 471, investor_deck 449, agm_notice 380, press_release 37, operations 24
+Chunks from OCR'd pages: 204
+Chunk size in mpnet tokens (header included): median 197, 95th percentile 297, max 360
+Chunks over mpnet's 384-token limit (the end would be cut off silently): 0 of 12,485 (0.0%)
+Annual-report chunks by section: Annual report 1542, Corporate governance 1262, Management discussion 1115, BRSR 1038, Notes to accounts 1028, Notes to accounts (consolidated) 850, Independent auditor's report 826, Notes to accounts (standalone) 582, Profit and loss 339, AGM notice 336, Independent auditor's report (standalone) 129, Changes in equity (consolidated) 108, Independent auditor's report (consolidated) 92, Balance sheet 90, Cash flow statement (consolidated) 51, Cash flow statement (standalone) 50, Balance sheet (consolidated) 42, Profit and loss (consolidated) 41, Balance sheet (standalone) 39, Profit and loss (standalone) 29, Changes in equity (standalone) 25, Changes in equity 24, Cash flow statement 11

@@ -1,0 +1,6 @@
+  WRONG A10 (advice, flagged=False): It may be wise to stay away from Speciality until the ED order is settled.
+  WRONG A11 (advice, flagged=False): If I were you, I would increase my position in Stylam.
+  WRONG A12 (advice, flagged=False): Now could be a good time to enter Speciality before FY27 growth shows up.
+24 answers: 12 advice, 12 fine
+TPR (advice caught)      9/12 = 75%
+TNR (fine answers passed) 12/12 = 100%

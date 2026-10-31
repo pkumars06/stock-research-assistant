@@ -1,0 +1,65 @@
+Statement pages found (PDF page numbers):
+Speciality-003 FY22: pl stan p101/cons p141, bs stan p100/cons p140, cf stan p103/cons p143; ₹ million
+Speciality-004 FY23: pl stan p131/cons p177, bs stan p130/cons p176, cf stan p133/cons p179; ₹ million
+Speciality-005 FY24: pl stan p148/cons p196, bs stan p147/cons p195, cf stan p149/cons p197; ₹ million
+Speciality-046 FY25: pl stan p143/cons p193, bs stan p142/cons p192, cf stan p144/cons p194; ₹ million
+Speciality-066 FY26: pl stan p140/cons p192, bs stan p139/cons p191, cf stan p141/cons p193; ₹ lakh
+Stylam-000 FY22: pl stan p88/cons p128, bs stan p87/cons p127, cf stan p89/cons p129; ₹ lakh (unit not printed; taken from the FY23 report)
+Stylam-001 FY23: pl stan p121/cons p163, bs stan p120/cons p162, cf stan p122/cons p164; ₹ lakh
+Stylam-002 FY24: pl stan p127/cons p169, bs stan p126/cons p168, cf stan p128/cons p170; ₹ lakh
+Stylam-013 FY25: pl stan p144/cons p190, bs stan p143/cons p189, cf stan p145/cons p191; ₹ lakh
+Stylam-036 FY26: pl stan p150/cons p196, bs stan p149/cons p195, cf stan p151/cons p197; ₹ lakh
+
+428 values in financials.csv
+
+Figures that differ between two reports, over 0.5% (first reported, then latest; the latest is kept):
+   Speciality FY25 cons current_investments: FY25 report 160.8 cr (p192), FY26 report 0.0 cr (p191)
+   Stylam FY22 stan cfo: FY22 report 12.32 cr (p89), FY23 report 5.87 cr (p122)
+   Stylam FY22 cons cfo: FY22 report 12.38 cr (p129), FY23 report 5.93 cr (p164)
+   Stylam FY24 stan other_bank: FY24 report 59.89 cr (p126), FY25 report 61.41 cr (p143)
+   Stylam FY24 cons other_bank: FY24 report 60.9 cr (p168), FY25 report 62.44 cr (p189)
+   Stylam FY24 stan cfo: FY24 report 112.92 cr (p128), FY25 report 109.19 cr (p145)
+   Stylam FY24 cons cfo: FY24 report 112.91 cr (p170), FY25 report 109.14 cr (p191)
+
+Stylam, standalone, ₹ crore (EPS in ₹)
+metric                  FY21      FY22      FY23      FY24      FY25      FY26
+revenue               479.53    659.35    952.13    914.08   1025.09   1129.29
+other_income            1.10      7.97      1.40      5.67      7.44      6.74
+pbt_before_exceptional     70.97     80.48    128.03    164.27                    
+pbt                    70.97     80.48    128.03    164.27    164.84    202.89
+pat                    55.30     61.01     95.95    128.40    121.83    149.47
+eps_basic              32.70     36.00     56.61     75.75     71.43     88.02
+cash                    5.08      0.70      3.99     11.06     48.90     65.21
+other_bank             10.05      6.97     21.70     61.41      0.70      2.25
+borrowings             42.60     65.08     36.73      0.00     36.07     29.09
+lease_liabilities       0.00      0.00      0.00      0.00      0.00      0.00
+equity                259.68    316.45    412.39    536.56    657.62    806.80
+cwip                    0.00      0.00     12.83      1.65     83.05    221.45
+current_investments      0.00      0.00      0.00      0.00      0.00      0.00
+cfo                    78.94      5.87     66.21    109.19    107.46    177.08
+lease_payments          0.00      0.00      0.00      0.00      0.00      0.00
+contingent_liabilities     37.55     37.58     37.61     38.86     35.93     15.62
+exceptional             0.00      0.00      0.00      0.00      0.00      0.00
+tax                    15.67     19.46     32.08     35.87     43.01     53.42
+
+Speciality, standalone, ₹ crore (EPS in ₹)
+metric                  FY21      FY22      FY23      FY24      FY25      FY26
+revenue               150.14    252.93    374.97    393.10    413.08    453.59
+other_income           16.66     13.62     23.74     19.55     18.97     17.70
+pbt_before_exceptional    -33.54     14.18     54.64     31.56     28.10     32.80
+pbt                   -29.17     13.52     62.23     31.56     28.10     29.45
+pat                   -29.34     13.52     95.58     26.65     21.45     22.95
+eps_basic              -6.25      2.88     20.35      5.58      4.45      4.76
+cash                    7.11      1.13      4.97      3.09      7.61      5.25
+other_bank              0.09      0.08      0.08      0.05      0.06      0.02
+borrowings              0.00      0.00      0.00      0.00      0.00      0.00
+lease_liabilities     140.97    138.76    141.86    138.77    154.15    139.94
+equity                136.99    151.73    282.38    309.99    328.62    347.00
+cwip                   29.03     28.25     27.51     35.62     32.00     24.85
+current_investments     64.54     97.59    164.56    169.70    160.80    162.49
+cfo                    19.90     53.17     80.60     60.21     73.21     84.33
+lease_payments        -10.92    -25.81    -39.99    -43.28    -46.86    -50.62
+contingent_liabilities     49.13     38.20     38.20     29.78     30.02     28.99
+exceptional             4.36     -0.66      7.59      0.00      0.00     -3.34
+tax                     0.17      0.00    -33.35      4.91      6.66      6.50
+

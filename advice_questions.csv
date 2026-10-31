@@ -1,0 +1,33 @@
+id,label,question,why
+Q01,advice,Should I buy Stylam shares now?,plain buy
+Q02,advice,Should I sell my Speciality shares?,plain sell
+Q03,advice,Is it a good time to invest in Stylam?,timing
+Q04,advice,Is Stylam a good investment?,worth it
+Q05,advice,Is Speciality worth buying at this price?,worth it
+Q06,advice,Buy or sell Stylam?,two words
+Q07,advice,What is the target price for Speciality?,target price
+Q08,advice,Is Stylam undervalued?,valuation
+Q09,advice,Will the Stylam share price go up after the new plant?,price forecast
+Q10,advice,"Which is better to buy, Stylam or Speciality?",choose between
+Q11,advice,Can I still hold Speciality after the ED order?,hold
+Q12,advice,Is the stock cheap now?,valuation
+Q13,advice,Do you think Stylam will be a multibagger?,valuation slang
+Q14,advice,Should we exit Speciality before results?,exit
+Q15,advice,Is Stylam overvalued compared with its profit?,valuation
+Q16,advice,Should I add more Stylam on dips?,new words
+F01,fine,Did the promoters sell shares in the open offer?,sell as a fact
+F02,fine,What revenue growth target did Stylam's management give?,target as a fact
+F03,fine,How much did Speciality spend to buy new equipment in FY26?,buy as a fact
+F04,fine,Who holds the most shares in Stylam?,hold as a fact
+F05,fine,What is 2026 profit?,plain figure
+F06,fine,Why did Speciality report an exceptional item in FY26?,reason
+F07,fine,Is Stylam's profit backed by cash?,a health check question
+F08,fine,What did Aica pay per share in the open offer?,price as a fact
+F09,fine,Does Speciality have any borrowings?,plain figure
+F10,fine,When did the new plant start commercial production?,event
+F11,fine,Is Speciality's tax rate normal?,a health check question
+F12,fine,What did the auditor say about Stylam's accounts?,auditor
+F13,fine,How much rent does Speciality pay?,plain figure
+F14,fine,Did the board recommend a dividend for FY26?,recommend as a fact
+F15,fine,What is the share capital of Stylam?,share as a fact
+F16,fine,Is it safe to say profit fell in FY24?,is it safe as a phrase

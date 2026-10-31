@@ -1,0 +1,46 @@
+[
+ {
+  "id": "B08",
+  "type": "calculation",
+  "model": "claude-sonnet-5-5",
+  "tools": [
+   "lookup_financials",
+   "lookup_financials",
+   "lookup_financials",
+   "lookup_financials",
+   "calculator",
+   "calculator",
+   "lookup_financials",
+   "calculator"
+  ],
+  "first_tool_fits": true,
+  "has_expected_figure": true,
+  "model_calls": 9,
+  "tokens_in": 22795,
+  "tokens_out": 1240,
+  "cost": 0.058,
+  "seconds": 15.6,
+  "stopped_by": "model call limit, then a final answer without tools",
+  "checks": {
+   "numbers_not_from_a_tool": [
+    "25.2"
+   ],
+   "percents_not_from_a_percent": [
+    "25.2",
+    "26.1",
+    "26.3",
+    "3.3"
+   ],
+   "advice": {
+    "ok": true,
+    "found": []
+   },
+   "nudged": false,
+   "still_a_plan": false,
+   "figure_years_not_asked": [],
+   "metrics_not_looked_up": []
+  },
+  "answer": "Based on Stylam's standalone figures, FY26 profit doesn't look boosted by one-off gains or by unusually low tax.\n\n- **One-off items:** Exceptional items were zero in FY26. Other income was ₹6.74 crore, about 3.3% of the ₹202.89 crore profit before tax, so it is small.\n- **Tax:** Tax was ₹53.42 crore, an effective rate of about 26.3%. That is close to FY25's roughly 26.1%. FY25 tax was ₹43.01 crore. For FY25's profit before tax I used the ₹164.84 crore originally reported, because the restated figure wasn't retrieved. The tax rate is not unusually low. It is close to the standard Indian corporate rate of about 25.2%.\n\n**What I could not check:**\n- I did not look at the make-up of other income, such as treasury gains, forex gains or government incentives. A one-off could be hidden inside the ₹6.74 crore, though it would be too small to change the picture much.\n- I did not read the tax reconciliation note or look for deferred-tax items.\n- I did not check consolidated figures, only standalone.\n- I did not check whether operating items such as raw-material costs, inventory gains or pricing helped margins. That would be a question about the quality of earnings, not about one-offs.\n- Both the FY25 and FY26 tax figures were flagged as restated, so small differences from originally reported numbers are possible.",
+  "expected": "No. There are no exceptional items. Tax was ₹5,342.03 lakh on profit before tax of ₹20,289.38 lakh, a normal 26.33%. The largest one-off gain, profit on selling assets, was ₹313.36 lakh, 1.54% of profit before tax"
+ }
+]

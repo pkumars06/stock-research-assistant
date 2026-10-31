@@ -1,0 +1,96 @@
+[
+ {
+  "id": "S01",
+  "type": "fact",
+  "question": "Who audited Stylam's FY26 standalone financial statements?",
+  "model": "gpt-4o-mini",
+  "tools": [
+   "search_filings"
+  ],
+  "first_tool_fits": true,
+  "has_expected_figure": false,
+  "model_calls": 2,
+  "tokens_in": 2472,
+  "tokens_out": 52,
+  "cost": 0.0004,
+  "seconds": 41.0,
+  "stopped_by": "the model wrote no tool call",
+  "checks": {
+   "numbers_not_from_a_tool": [],
+   "percents_not_from_a_percent": [],
+   "advice": {
+    "ok": true,
+    "found": []
+   },
+   "nudged": false,
+   "still_a_plan": false,
+   "figure_years_not_asked": [],
+   "metrics_not_looked_up": []
+  },
+  "answer": "The filings do not specify who audited Stylam's FY26 standalone financial statements. Insufficient evidence in the filings.",
+  "expected": "Mittal Goel & Associates, Chartered Accountants (FRN 017577N); partner Sandeep Kumar Goel; signed 07.05.2026 at Chandigarh"
+ },
+ {
+  "id": "S02",
+  "type": "table",
+  "question": "What was Stylam's net cash flow from operating activities in FY26 and FY25 (standalone)?",
+  "model": "gpt-4o-mini",
+  "tools": [
+   "lookup_financials",
+   "lookup_financials"
+  ],
+  "first_tool_fits": true,
+  "has_expected_figure": true,
+  "model_calls": 3,
+  "tokens_in": 2784,
+  "tokens_out": 124,
+  "cost": 0.00049,
+  "seconds": 3.9,
+  "stopped_by": "the model wrote no tool call",
+  "checks": {
+   "numbers_not_from_a_tool": [],
+   "percents_not_from_a_percent": [],
+   "advice": {
+    "ok": true,
+    "found": []
+   },
+   "nudged": false,
+   "still_a_plan": false,
+   "figure_years_not_asked": [],
+   "metrics_not_looked_up": []
+  },
+  "answer": "Stylam's net cash flow from operating activities in FY26 was ₹177.08 crore (Stylam annual report FY26, PDF p151), and in FY25 it was ₹107.46 crore (Stylam annual report FY26, PDF p151).",
+  "expected": "FY26 ₹17,708.35 lakh (₹177.08 crore); FY25 ₹10,746.12 lakh (₹107.46 crore)"
+ },
+ {
+  "id": "S04",
+  "type": "calculation",
+  "question": "How much did Stylam's revenue grow in 2026?",
+  "model": "gpt-4o-mini",
+  "tools": [
+   "compare_years"
+  ],
+  "first_tool_fits": true,
+  "has_expected_figure": true,
+  "model_calls": 2,
+  "tokens_in": 1791,
+  "tokens_out": 79,
+  "cost": 0.00032,
+  "seconds": 2.3,
+  "stopped_by": "the model wrote no tool call",
+  "checks": {
+   "numbers_not_from_a_tool": [],
+   "percents_not_from_a_percent": [],
+   "advice": {
+    "ok": true,
+    "found": []
+   },
+   "nudged": false,
+   "still_a_plan": false,
+   "figure_years_not_asked": [],
+   "metrics_not_looked_up": []
+  },
+  "answer": "Stylam's revenue grew by ₹104.2 crore, which is a 10.2% increase from FY25 to FY26. This information is from the Stylam annual report FY26, PDF page 150.",
+  "expected": "Bare year = FY26 (Apr 2025-Mar 2026). Revenue from operations ₹1,12,929.39 lakh vs ₹1,02,508.95 lakh = +10.17% (the ten-year table rounds to ₹1,025 -> ₹1,129 crore, 10%)"
+ }
+]

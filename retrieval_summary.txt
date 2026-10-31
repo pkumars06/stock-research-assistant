@@ -1,0 +1,39 @@
+Retrieval on 36 golden-set questions (not-in-filings excluded). Chunks: 12485, mpnet with header. Written 2026-10-20 11:06.
+
+All questions
+method   filter         hit@5 recall@5 hit@10 recall@10   MRR
+dense    none            0.36     0.31   0.56      0.46  0.23
+dense    company         0.44     0.38   0.56      0.47  0.28
+dense    company+year    0.47     0.39   0.67      0.58  0.31
+dense    +recent         0.50     0.41   0.67      0.59  0.33
+keyword  none            0.44     0.38   0.47      0.40  0.32
+keyword  company         0.44     0.38   0.47      0.40  0.36
+keyword  company+year    0.50     0.43   0.64      0.52  0.39
+keyword  +recent         0.53     0.44   0.64      0.52  0.39
+hybrid   none            0.44     0.40   0.50      0.46  0.31
+hybrid   company         0.47     0.43   0.58      0.53  0.33
+hybrid   company+year    0.58     0.53   0.64      0.58  0.37
+hybrid   +recent         0.58     0.53   0.72      0.61  0.38
+rerank   none            0.50     0.43   0.64      0.54  0.40
+rerank   company         0.53     0.45   0.69      0.57  0.41
+rerank   company+year    0.58     0.49   0.75      0.61  0.47
+rerank   +recent         0.64     0.52   0.75      0.61  0.47
+
+recall@5 by question type (count in brackets)
+method   filter        calculation(12)        fact(8)   multi-hop(6)       table(10)
+dense    none                    0.25           0.62           0.18           0.20
+dense    company                 0.38           0.62           0.18           0.30
+dense    company+year            0.38           0.62           0.26           0.30
+dense    +recent                 0.38           0.69           0.26           0.30
+keyword  none                    0.25           0.62           0.31           0.40
+keyword  company                 0.25           0.62           0.31           0.40
+keyword  company+year            0.25           0.62           0.39           0.50
+keyword  +recent                 0.25           0.62           0.47           0.50
+hybrid   none                    0.33           0.62           0.25           0.40
+hybrid   company                 0.33           0.62           0.25           0.50
+hybrid   company+year            0.42           0.75           0.33           0.60
+hybrid   +recent                 0.42           0.75           0.33           0.60
+rerank   none                    0.33           0.69           0.35           0.40
+rerank   company                 0.38           0.69           0.35           0.40
+rerank   company+year            0.29           0.81           0.43           0.50
+rerank   +recent                 0.33           0.81           0.51           0.50

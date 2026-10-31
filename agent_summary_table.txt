@@ -1,0 +1,6 @@
+Agent on 10 golden questions, model Qwen/Qwen2.5-0.5B-Instruct, limits: 6 model calls, 6 tool calls
+type             n  any tool  first fits   figure  calls  tokens      s
+table           10        10           8     0/10    2.0    2102     24
+all             10        10           8     0/10    2.0    2102     24
+stopped by: the model wrote no tool call 10
+numbers not from a tool: 3 answers; advice check failed: 0

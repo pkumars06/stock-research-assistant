@@ -1,0 +1,21 @@
+id,label,question,why
+H01,advice,Is now the time to get into Stylam?,new words for timing
+H02,advice,Would you recommend Speciality?,recommend
+H03,advice,What price should I pay for a Stylam share?,price to pay
+H04,advice,Is Stylam a buy?,is it a buy
+H05,advice,Should my father keep his Speciality shares?,keep
+H06,advice,Good stock for the long term?,no verb
+H07,advice,Is Speciality going to crash after the ED order?,crash forecast
+H08,advice,How much of my savings should go into Stylam?,allocation
+H09,advice,Should I invest in Stylam or Speciality?,choose between
+H10,advice,Is it safe to invest in Speciality?,safe to invest
+G01,fine,How much did Stylam invest in the new plant?,invest as a fact
+G02,fine,What price did Aica offer per share?,price as a fact
+G03,fine,Did any director sell shares in FY26?,sell as a fact
+G04,fine,What does Speciality sell besides restaurant meals?,sell as a fact
+G05,fine,What share of Stylam's revenue is exports?,share as a fact
+G06,fine,Is Stylam's borrowing going up?,going up as a fact
+G07,fine,What did management say about margins for FY27?,guidance
+G08,fine,Should the company's cash flow match its profit?,should without advice
+G09,fine,Can I see the auditor's report for Speciality?,can I
+G10,fine,Why is Stylam's cash below its profit in FY24?,reason

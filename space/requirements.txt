@@ -1,0 +1,17 @@
+# The Space: only what app.py imports when it runs on OpenAI or Claude (gradio comes from sdk_version in README.md).
+# Versions as pinned in the root requirements-lock.txt on 2026-10-31. CPU-only torch: the default build is the
+# GPU one, several GB, and this Space has no GPU.
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.14.0+cpu
+transformers==5.17.0
+sentence-transformers==6.1.0
+numpy==2.5.3
+rank_bm25==0.2.2
+langchain==1.4.4
+langchain-core==1.6.13
+langgraph==1.2.14
+langsmith==0.14.12
+anthropic==1.17.0
+langchain-anthropic==1.7.6
+openai==3.16.2
+langchain-openai==1.7.0

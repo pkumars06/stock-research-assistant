@@ -1,0 +1,257 @@
+[
+ {
+  "id": "S01",
+  "question": "Who audited Stylam's FY26 standalone financial statements?",
+  "model": "gpt-6.1-sol",
+  "tools": [
+   "search_filings",
+   "search_filings"
+  ],
+  "tokens_in": 5739,
+  "tokens_out": 145,
+  "seconds": 43.8,
+  "stopped_by": "the model wrote no tool call",
+  "checks": {
+   "numbers_not_from_a_tool": [],
+   "percents_not_from_a_percent": [],
+   "advice": {
+    "ok": true,
+    "found": []
+   },
+   "nudged": false,
+   "still_a_plan": false,
+   "figure_years_not_asked": [],
+   "metrics_not_looked_up": []
+  },
+  "answer": "**Mittal Goel & Associates, Chartered Accountants**, audited Stylam’s FY26 standalone financial statements. The signing partner was **Sandeep Kumar Goel**.\n\nSource: Stylam Industries Annual Report FY26, PDF p142 (printed p159).",
+  "expected": "Mittal Goel & Associates, Chartered Accountants (FRN 017577N); partner Sandeep Kumar Goel; signed 07.05.2026 at Chandigarh"
+ },
+ {
+  "id": "S06",
+  "question": "What share of Stylam's FY26 sales came from exports?",
+  "model": "gpt-6.1-sol",
+  "tools": [
+   "search_filings"
+  ],
+  "tokens_in": 2803,
+  "tokens_out": 87,
+  "seconds": 7.3,
+  "stopped_by": "the model wrote no tool call",
+  "checks": {
+   "numbers_not_from_a_tool": [],
+   "percents_not_from_a_percent": [],
+   "advice": {
+    "ok": true,
+    "found": []
+   },
+   "nudged": false,
+   "still_a_plan": false,
+   "figure_years_not_asked": [],
+   "metrics_not_looked_up": []
+  },
+  "answer": "Exports accounted for **75% of Stylam’s FY26 sales**, according to management.\n\nSource: Stylam Industries Q4 FY26 earnings call, filed 16 May 2026, PDF p. 12.",
+  "expected": "73.57%: export sales ₹83,077.45 lakh of ₹1,12,929.39 lakh (FY25: 71.30%)"
+ },
+ {
+  "id": "S12",
+  "question": "How much did Stylam's profit before tax grow in Q1 FY27 compared with Q1 FY26?",
+  "model": "gpt-6.1-sol",
+  "tools": [
+   "search_filings",
+   "compare_years",
+   "lookup_financials",
+   "search_filings",
+   "calculator"
+  ],
+  "tokens_in": 17672,
+  "tokens_out": 313,
+  "seconds": 18.6,
+  "stopped_by": "the model wrote no tool call",
+  "checks": {
+   "numbers_not_from_a_tool": [],
+   "percents_not_from_a_percent": [],
+   "advice": {
+    "ok": true,
+    "found": []
+   },
+   "nudged": false,
+   "still_a_plan": false,
+   "figure_years_not_asked": [],
+   "metrics_not_looked_up": []
+  },
+  "answer": "Stylam’s standalone profit before tax grew **57.66% year on year** in Q1 FY27, from ₹4,125.27 lakh to ₹6,504.04 lakh.\n\nSource: *Stylam Industries Results Q1 FY27*, filed 22 July 2026, PDF p4.",
+  "expected": "₹6,504.04 lakh vs ₹4,125.27 lakh = +57.66%"
+ },
+ {
+  "id": "S14",
+  "question": "How did Stylam's domestic sales grow in FY26 compared with its export sales?",
+  "model": "gpt-6.1-sol",
+  "tools": [
+   "search_filings",
+   "compare_years",
+   "search_filings",
+   "lookup_financials",
+   "calculator",
+   "calculator"
+  ],
+  "tokens_in": 17026,
+  "tokens_out": 337,
+  "seconds": 20.3,
+  "stopped_by": "the model wrote no tool call",
+  "checks": {
+   "numbers_not_from_a_tool": [],
+   "percents_not_from_a_percent": [],
+   "advice": {
+    "ok": true,
+    "found": []
+   },
+   "nudged": false,
+   "still_a_plan": false,
+   "figure_years_not_asked": [],
+   "metrics_not_looked_up": []
+  },
+  "answer": "Stylam’s domestic sales grew much more slowly than exports in FY26:\n\n| Sales | FY25 | FY26 | Year-on-year growth |\n|---|---:|---:|---:|\n| Domestic | ₹294 crore | ₹298 crore | **1.4%** |\n| Exports | ₹731 crore | ₹831 crore | **13.7%** |\n\nExports were the main driver of sales growth.\n\nSource: Stylam Industries Annual Report FY26, PDF p9 (printed pp12–13). Growth rates calculated from the reported figures.",
+  "expected": "Domestic ₹29,851.95 vs ₹29,424.34 lakh = +1.45%; exports ₹83,077.45 vs ₹73,084.61 lakh = +13.67%"
+ },
+ {
+  "id": "S15",
+  "question": "What share price does Stylam expect by FY28?",
+  "model": "gpt-6.1-sol",
+  "tools": [
+   "search_filings"
+  ],
+  "tokens_in": 2920,
+  "tokens_out": 71,
+  "seconds": 6.4,
+  "stopped_by": "the model wrote no tool call",
+  "checks": {
+   "numbers_not_from_a_tool": [],
+   "percents_not_from_a_percent": [],
+   "advice": {
+    "ok": true,
+    "found": []
+   },
+   "nudged": false,
+   "still_a_plan": false,
+   "figure_years_not_asked": [],
+   "metrics_not_looked_up": []
+  },
+  "answer": "Insufficient evidence in the filings. The retrieved material does not state a share price Stylam expects by FY28.",
+  "expected": "Insufficient evidence: companies do not give share price targets in filings. (The ₹3,720 base case is from my memo, not a filing)"
+ },
+ {
+  "id": "P01",
+  "question": "What was the exceptional item in Speciality's Q3 FY26 results?",
+  "model": "gpt-6.1-sol",
+  "tools": [
+   "search_filings",
+   "search_filings",
+   "lookup_financials"
+  ],
+  "tokens_in": 12216,
+  "tokens_out": 263,
+  "seconds": 15.3,
+  "stopped_by": "the model wrote no tool call",
+  "checks": {
+   "numbers_not_from_a_tool": [],
+   "percents_not_from_a_percent": [],
+   "advice": {
+    "ok": true,
+    "found": []
+   },
+   "nudged": false,
+   "still_a_plan": false,
+   "figure_years_not_asked": [],
+   "metrics_not_looked_up": []
+  },
+  "answer": "Speciality’s Q3 FY26 exceptional item was a **₹334.38 lakh expense for past-period employee benefit liabilities** under the **New Labour Codes**, which took effect on 21 November 2025. It reduced profit before tax.\n\nSource: *Speciality Restaurants Q3 FY26 Results*, filed 10 February 2026, Note 4, PDF p4; exceptional-item treatment on PDF p3.",
+  "expected": "₹334.38 lakh, for past-period employee benefit liability under the New Labour Codes, effective 21 November 2025"
+ },
+ {
+  "id": "P10",
+  "question": "How much rent did Speciality pay to Situations Advertising & Marketing Services in FY25?",
+  "model": "gpt-6.1-sol",
+  "tools": [
+   "search_filings",
+   "search_filings",
+   "search_filings",
+   "search_filings",
+   "calculator"
+  ],
+  "tokens_in": 21326,
+  "tokens_out": 284,
+  "seconds": 22.6,
+  "stopped_by": "the model wrote no tool call",
+  "checks": {
+   "numbers_not_from_a_tool": [],
+   "percents_not_from_a_percent": [],
+   "advice": {
+    "ok": true,
+    "found": []
+   },
+   "nudged": false,
+   "still_a_plan": false,
+   "figure_years_not_asked": [],
+   "metrics_not_looked_up": []
+  },
+  "answer": "Speciality reported **₹44.94 million (₹4.494 crore)** in rent expenses to Situations Advertising & Marketing Services Private Limited in FY25.\n\nSource: *Speciality Restaurants Annual Report FY25*, related-party disclosures, PDF p226 (printed p223). The report presents figures in millions (PDF p197).",
+  "expected": "₹44.94 million (₹4.49 crore), up from ₹35.83 million in FY24"
+ },
+ {
+  "id": "P14",
+  "question": "What did Speciality's management say about the Enforcement Directorate order on the Q1 FY27 earnings call?",
+  "model": "gpt-6.1-sol",
+  "tools": [
+   "search_filings",
+   "search_filings",
+   "search_filings"
+  ],
+  "tokens_in": 10388,
+  "tokens_out": 263,
+  "seconds": 14.9,
+  "stopped_by": "the model wrote no tool call",
+  "checks": {
+   "numbers_not_from_a_tool": [],
+   "percents_not_from_a_percent": [],
+   "advice": {
+    "ok": true,
+    "found": []
+   },
+   "nudged": false,
+   "still_a_plan": false,
+   "figure_years_not_asked": [],
+   "metrics_not_looked_up": []
+  },
+  "answer": "There is a timing mismatch:\n\n- The **Q1 FY27 earnings call took place on August 11, 2026**. (Source: Speciality Restaurants Q1 FY27 earnings-call transcript, filed August 13, 2026, PDF p1.)\n- The **Enforcement Directorate’s provisional attachment order was dated September 25, 2026**, after that call. (Source: Speciality Restaurants filing dated September 26, 2026, PDF p1.)\n\n**Insufficient evidence in the filings** to attribute any comments about that order to management on the Q1 FY27 call.",
+  "expected": "Insufficient evidence: the Q1 FY27 call was on 13 Aug 2026, before the order of 25 Sep 2026"
+ },
+ {
+  "id": "B07",
+  "question": "Does Speciality pay companies owned by its promoters?",
+  "model": "gpt-6.1-sol",
+  "tools": [
+   "search_filings",
+   "search_filings",
+   "search_filings",
+   "search_filings"
+  ],
+  "tokens_in": 15170,
+  "tokens_out": 417,
+  "seconds": 22.2,
+  "stopped_by": "the model wrote no tool call",
+  "checks": {
+   "numbers_not_from_a_tool": [],
+   "percents_not_from_a_percent": [],
+   "advice": {
+    "ok": true,
+    "found": []
+   },
+   "nudged": false,
+   "still_a_plan": false,
+   "figure_years_not_asked": [],
+   "metrics_not_looked_up": []
+  },
+  "answer": "**Yes—Speciality discloses payments to related businesses.** But the filings describe these as entities where key management personnel or their relatives have **“significant influence.”** That does not, by itself, establish promoter ownership. *(Source: Speciality Restaurants FY26 Annual Report, PDF p226.)*\n\nExamples include:\n- **Situations Advertising & Marketing Services Private Limited:** rent, retainership fees and advertising expenses.\n- **Havik Exports LLP** and **Prosperous Promotors LLP:** rent expenses.\n\n*(Sources: FY25 Annual Report, PDF p226, for rent; FY26 Annual Report, PDF p174, for retainership and advertising.)*\n\nSpeciality says its related-party transactions were in the ordinary course of business and at arm’s length. That is the company’s disclosure, not independent proof that the pricing was fair. *(Source: FY26 Annual Report, PDF p50.)*\n\nSo, **payments to related businesses are confirmed; their precise promoter ownership is not established by the passages available.**",
+  "expected": "Yes. FY26 rent: Situations Advertising & Marketing Services ₹495.53 lakh (FY25 ₹449.40 lakh), Prosperous Promotors ₹70.80 lakh, Havik Exports ₹45.39 lakh, Anjan Chatterjee HUF ₹22.77 lakh. Also to Situations: advertising ₹33.45 lakh and reimbursements ₹120.48 lakh"
+ }
+]

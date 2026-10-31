@@ -1,0 +1,390 @@
+[
+ {
+  "config": "without",
+  "id": "S06",
+  "try": 0,
+  "figure": true,
+  "flagged": [],
+  "tools": [
+   "search_filings",
+   "lookup_financials",
+   "calculator"
+  ],
+  "tokens_in": 7116,
+  "answer": "Exports accounted for **73.6%** of Stylam’s FY26 standalone sales: ₹830.77 crore out of ₹1,129.29 crore.\n\nSource: Stylam FY26 annual report, PDF pp. 150 and 169."
+ },
+ {
+  "config": "without",
+  "id": "S06",
+  "try": 1,
+  "figure": false,
+  "flagged": [],
+  "tools": [
+   "search_filings"
+  ],
+  "tokens_in": 2907,
+  "answer": "Exports accounted for **75%** of Stylam’s FY26 sales, according to management. Domestic sales made up the remaining 25%.\n\nSource: Stylam Q4 FY26 earnings call, PDF p.12."
+ },
+ {
+  "config": "without",
+  "id": "S06",
+  "try": 2,
+  "figure": true,
+  "flagged": [],
+  "tools": [
+   "search_filings",
+   "lookup_financials",
+   "calculator"
+  ],
+  "tokens_in": 7478,
+  "answer": "Exports accounted for **73.6%** of Stylam’s FY26 sales. This is calculated from export sales and total sales in the annual report. Management described the share as approximately 75% on the earnings call.\n\nSources: Stylam FY26 annual report, PDF p169; Q4 FY26 earnings call, PDF p12."
+ },
+ {
+  "config": "without",
+  "id": "B01",
+  "try": 0,
+  "figure": false,
+  "flagged": [],
+  "tools": [
+   "search_filings",
+   "search_filings"
+  ],
+  "tokens_in": 5464,
+  "answer": "**What it makes:** Stylam makes decorative surface products, including high-pressure laminates, acrylic solid surfaces, exterior cladding and restroom cubicles. These are used in furniture, interiors and buildings.  \n*Source: Stylam FY25 annual report, PDF pp. 6 and 12.*\n\n**Where it sells:** Stylam sells in India and exports to more than 80 countries across Europe, the Middle East, the Far East, the Americas, Asia and Africa. About two-thirds of its revenue comes from exports. In India, it reports a presence across 28 states and more than 2,000 cities.  \n*Source: Stylam FY25 annual report, PDF p. 35.*"
+ },
+ {
+  "config": "without",
+  "id": "B01",
+  "try": 1,
+  "figure": false,
+  "flagged": [],
+  "tools": [
+   "search_filings",
+   "search_filings"
+  ],
+  "tokens_in": 5497,
+  "answer": "Stylam makes **decorative and functional surface products**. These include laminates, acrylic solid surfaces, exterior cladding, restroom cubicles and lockers. They are used in applications such as furniture, wall panels and countertops.  \n*Source: Stylam FY26 annual report, PDF pp. 35 and 38.*\n\nStylam sells in **India and overseas**. Its FY25 report says it sells in more than 80 countries, including markets in Europe, the Middle East, the Americas, Asia and Africa. About two-thirds of its revenue came from exports. In India, it reported a presence across 28 states and more than 2,000 cities.  \n*Source: Stylam FY25 annual report, PDF p. 35.*"
+ },
+ {
+  "config": "without",
+  "id": "B01",
+  "try": 2,
+  "figure": false,
+  "flagged": [],
+  "tools": [
+   "search_filings",
+   "search_filings"
+  ],
+  "tokens_in": 5452,
+  "answer": "Stylam makes **surface materials** for interiors and exteriors. These include decorative and compact laminates, acrylic solid surfaces, exterior cladding, restroom cubicles and lockers. Its products are used in furniture, wall panels and countertops. [FY26 annual report, PDF pp. 35, 38]\n\nIt sells in **India and internationally**. The company exports to more than 80 countries, across Europe, the Middle East, the Americas, Asia and Africa. In India, it reports a presence across 28 states and more than 2,000 cities. [FY25 annual report, PDF p. 35]"
+ },
+ {
+  "config": "without",
+  "id": "B07",
+  "try": 0,
+  "figure": true,
+  "flagged": [],
+  "tools": [
+   "search_filings",
+   "search_filings",
+   "search_filings",
+   "search_filings",
+   "search_filings",
+   "search_filings",
+   "search_filings"
+  ],
+  "tokens_in": 38823,
+  "answer": "**Yes, Speciality reports transactions with a related company**, though the filing describes the relationship as significant influence, not necessarily promoter ownership.\n\nIn FY26, it reported ₹21.24 lakh in retainership fees and ₹33.45 lakh in advertising expenses with Situations Advertising & Marketing Services Private Limited. It classifies Situations as an entity in which key management personnel or their relatives can exercise significant influence. [FY26 annual report, PDF p174]\n\nSpeciality says its related-party transactions were in the ordinary course of business and at arm’s length. [FY26 annual report, PDF p50]"
+ },
+ {
+  "config": "without",
+  "id": "B07",
+  "try": 1,
+  "figure": true,
+  "flagged": [],
+  "tools": [
+   "search_filings",
+   "search_filings",
+   "search_filings",
+   "search_filings",
+   "search_filings",
+   "search_filings"
+  ],
+  "tokens_in": 31904,
+  "answer": "**Yes, Speciality reports expenses involving related entities**, although the filing describes them as entities in which key management personnel or their relatives can exercise significant influence—not necessarily as companies owned by promoters.\n\nIn FY26, Speciality reported rent expense of **₹495.53 lakh** to Situations Advertising & Marketing Services Private Limited. It also reported retainership fees of ₹21.24 lakh and advertising expenses of ₹33.45 lakh to that company. These are reported expenses, not necessarily cash paid during the year. [FY26 annual report, PDF pp. 174 and 226]\n\nThe company says its related-party transactions were in the ordinary course of business and at arm’s-length prices. [FY26 annual report, PDF p. 227]"
+ },
+ {
+  "config": "without",
+  "id": "B07",
+  "try": 2,
+  "figure": false,
+  "flagged": [],
+  "tools": [
+   "search_filings",
+   "search_filings",
+   "search_filings",
+   "search_filings",
+   "search_filings",
+   "search_filings",
+   "search_filings",
+   "search_filings"
+  ],
+  "tokens_in": 49365,
+  "answer": "**Yes—Speciality reports payments to promoter-linked entities**, though the disclosures returned describe the link as *significant influence*, not necessarily ownership.\n\nIn FY26, Speciality reported rent expenses involving Situations Advertising & Marketing Services, Havik Exports and Prosperous Promotors. It also reported retainership fees and advertising expenses involving Situations Advertising. The company classifies these as entities in which key management personnel or their relatives can exercise significant influence. [FY26 annual report, pp. 170 and 222]\n\nSpeciality says its related-party transactions were in the ordinary course of business and at arm’s length. [FY26 annual report, pp. 46 and 223]\n\n**What I could not check:** the promoters’ exact ownership stakes in those entities, or independently verify that the charges were at market rates."
+ },
+ {
+  "config": "without",
+  "id": "B08",
+  "try": 0,
+  "figure": true,
+  "flagged": [
+   "26.1"
+  ],
+  "tools": [
+   "lookup_financials",
+   "lookup_financials",
+   "lookup_financials",
+   "lookup_financials",
+   "lookup_financials",
+   "compare_years",
+   "lookup_financials",
+   "calculator"
+  ],
+  "tokens_in": 12582,
+  "answer": "**There is no clear evidence of either**, based on the standalone figures available:\n\n- **One-off gains:** No exceptional gain is shown. Other income was ₹6.74 crore, but I could not check its composition or rule out gains recorded elsewhere.\n- **Tax:** Tax expense was ₹53.42 crore on pre-tax profit of ₹202.89 crore—an effective rate of **26.3%**, close to FY25’s approximately 26.1%.\n\nFY26 profit after tax was ₹149.47 crore. The data returned flagged the tax and exceptional-item figures as restated; I could not verify the original disclosures or the reasons for any restatement.\n\n*Source: Stylam FY26 annual report, PDF p.150.*"
+ },
+ {
+  "config": "without",
+  "id": "B08",
+  "try": 1,
+  "figure": true,
+  "flagged": [
+   "26.1",
+   "26.3"
+  ],
+  "tools": [
+   "lookup_financials",
+   "lookup_financials",
+   "lookup_financials",
+   "lookup_financials",
+   "lookup_financials",
+   "compare_years",
+   "compare_years",
+   "search_filings"
+  ],
+  "tokens_in": 14618,
+  "answer": "**No obvious boost from either source**, based on Stylam’s standalone FY26 accounts.\n\n- **One-off gains:** The company reported no exceptional items. Other income was ₹6.74 crore, broadly unchanged from about ₹7 crore in FY25.\n- **Tax:** FY26 tax expense was ₹53.42 crore on pre-tax profit of ₹202.89 crore—an effective rate of **26.3%**, versus **26.1%** in FY25. It was not unusually low relative to the prior year.\n\nI could not check the components of other income or the detailed tax reconciliation, so I can’t rule out a one-off gain recorded outside exceptional items.\n\n*Source: Stylam FY26 annual report, PDF pp. 38 and 150.*"
+ },
+ {
+  "config": "without",
+  "id": "B08",
+  "try": 2,
+  "figure": true,
+  "flagged": [
+   "26.1",
+   "26.3"
+  ],
+  "tools": [
+   "lookup_financials",
+   "lookup_financials",
+   "lookup_financials",
+   "lookup_financials",
+   "compare_years",
+   "compare_years",
+   "compare_years",
+   "lookup_financials"
+  ],
+  "tokens_in": 13081,
+  "answer": "**Probably not.** On the standalone figures available, Stylam’s FY26 profit does not appear to have been boosted by unusually low tax, and no exceptional gain is identified.\n\n- **Tax:** The effective rate was approximately **26.3%** (₹53.42 crore tax on ₹202.89 crore pre-tax profit), versus **26.1%** in FY25. It was slightly higher, not lower.\n- **Exceptional items:** The available figure is **nil**. Profit after tax rose 22.7% to ₹149.47 crore, broadly in line with the 23.1% rise in pre-tax profit.\n\n**What I couldn’t check:** Stylam reported ₹6.74 crore of other income, but I couldn’t check its composition or determine whether it included non-recurring gains. I also couldn’t independently verify the exceptional-items figure against the underlying notes.\n\nSource: Stylam FY26 annual report, PDF p.150 (printed p.167)."
+ },
+ {
+  "config": "with",
+  "id": "S06",
+  "try": 0,
+  "figure": false,
+  "flagged": [],
+  "tools": [
+   "search_filings"
+  ],
+  "tokens_in": 3308,
+  "answer": "Exports accounted for approximately **75%** of Stylam’s FY26 sales, according to management.\n\nSource: Stylam Q4 FY26 earnings call, PDF p. 12."
+ },
+ {
+  "config": "with",
+  "id": "S06",
+  "try": 1,
+  "figure": true,
+  "flagged": [],
+  "tools": [
+   "search_filings",
+   "lookup_financials",
+   "calculator"
+  ],
+  "tokens_in": 7907,
+  "answer": "Exports accounted for **73.6%** of Stylam’s FY26 sales, based on the annual report’s sales breakdown. Management described the share as 75% on the Q4 earnings call.\n\nSources: Stylam FY26 annual report, PDF p169; Q4 FY26 earnings call, PDF p12."
+ },
+ {
+  "config": "with",
+  "id": "S06",
+  "try": 2,
+  "figure": false,
+  "flagged": [],
+  "tools": [
+   "search_filings"
+  ],
+  "tokens_in": 3012,
+  "answer": "Exports accounted for **75%** of Stylam’s FY26 sales, according to management. Domestic sales made up the remaining 25%.\n\nSource: Stylam Q4 FY26 earnings call, filed 16 May 2026, PDF p. 12."
+ },
+ {
+  "config": "with",
+  "id": "B01",
+  "try": 0,
+  "figure": false,
+  "flagged": [],
+  "tools": [
+   "search_filings",
+   "search_filings"
+  ],
+  "tokens_in": 5778,
+  "answer": "**What it makes:** Stylam makes decorative and compact laminates, acrylic solid surfaces, exterior cladding, restroom cubicles and other surface products for interiors and exteriors. (Stylam FY26 annual report, PDF p35, printed p52.)\n\n**Where it sells:** It sells across India and internationally. In FY26, it reported serving 28 Indian states and 80 countries; exports accounted for 73.60% of turnover. (Stylam FY26 annual report, PDF p103, printed p120.)"
+ },
+ {
+  "config": "with",
+  "id": "B01",
+  "try": 1,
+  "figure": false,
+  "flagged": [],
+  "tools": [
+   "search_filings"
+  ],
+  "tokens_in": 2972,
+  "answer": "Stylam makes decorative surface products, including high-pressure laminates, acrylic solid surfaces, exterior cladding and restroom cubicles. Its laminates come in finishes such as wood, marble and fabric. (FY25 annual report, PDF pp. 6 and 35)\n\nIt sells in India and more than 80 countries across Europe, the Middle East, the Far East, the Americas, Asia and Africa. About two-thirds of its revenue comes from exports. In India, it has a presence across 28 states and over 2,000 cities. (FY25 annual report, PDF p. 35)"
+ },
+ {
+  "config": "with",
+  "id": "B01",
+  "try": 2,
+  "figure": false,
+  "flagged": [],
+  "tools": [
+   "search_filings",
+   "search_filings"
+  ],
+  "tokens_in": 5722,
+  "answer": "Stylam makes surface materials for interiors and exteriors. These include decorative and compact laminates, acrylic solid surfaces, exterior cladding, restroom cubicles and lockers. (Stylam FY26 annual report, PDF p. 35.)\n\nIt sells in India and exports to more than 80 countries, including markets in Europe, the Middle East, the Far East, the Americas, Asia and Africa. Its FY25 report says about two-thirds of revenue came from exports. (Stylam FY25 annual report, PDF p. 35.)"
+ },
+ {
+  "config": "with",
+  "id": "B07",
+  "try": 0,
+  "figure": true,
+  "flagged": [],
+  "tools": [
+   "search_filings",
+   "search_filings",
+   "search_filings",
+   "search_filings",
+   "search_filings",
+   "search_filings"
+  ],
+  "tokens_in": 31520,
+  "answer": "**Yes, Speciality reports transactions with a promoter-linked company.** In FY26, it recorded ₹21.24 lakh in retainership fees and ₹33.45 lakh in advertising expenses with Situations Advertising & Marketing Services Private Limited. [FY26 annual report, PDF pp. 144 and 174]\n\nThe report classifies Situations as an entity in which key managerial personnel or their relatives can exercise significant influence. It does **not establish from that disclosure alone** that the promoters own it. Speciality identifies Anjanmoy and Suchhanda Chatterjee as promoter directors. [FY26 annual report, PDF pp. 103 and 174]\n\nSpeciality says its audit committee approved related-party transactions and reviewed repetitive transactions quarterly. [FY26 annual report, PDF p. 122]"
+ },
+ {
+  "config": "with",
+  "id": "B07",
+  "try": 1,
+  "figure": true,
+  "flagged": [],
+  "tools": [
+   "search_filings",
+   "search_filings",
+   "search_filings",
+   "search_filings",
+   "search_filings",
+   "search_filings"
+  ],
+  "tokens_in": 31456,
+  "answer": "**Yes, Speciality reports expenses involving a promoter-linked company**, although the disclosure describes the link as significant influence rather than ownership.\n\nIn FY26, Speciality recorded ₹21.24 lakh in retainership fees and ₹33.45 lakh in advertising expenses involving Situations Advertising & Marketing Services Pvt Ltd. It lists Situations as an entity in which key management personnel or their relatives can exercise significant influence. These are reported expenses, not necessarily cash paid during the year. *(Speciality FY26 annual report, PDF p174)*\n\nThe company says its related-party transactions were in the ordinary course of business and at arm’s length. *(FY26 annual report, PDF p50)*\n\nThe cited disclosure does not establish exactly who owns Situations or their ownership percentages."
+ },
+ {
+  "config": "with",
+  "id": "B07",
+  "try": 2,
+  "figure": false,
+  "flagged": [],
+  "tools": [
+   "search_filings",
+   "search_filings",
+   "search_filings",
+   "search_filings"
+  ],
+  "tokens_in": 16798,
+  "answer": "**Yes, Speciality reports transactions with a company linked to its management**, but the filing does not establish that it is owned by the promoters.\n\nIn FY26, Speciality recorded retainership fees and advertising expenses with Situations Advertising & Marketing Services Private Limited. It describes Situations as an entity in which key managerial personnel or their relatives can exercise significant influence. [FY26 annual report, PDF pp. 173–174]\n\nThe company says its related-party transactions were in the ordinary course of business and at arm’s-length prices. [FY26 annual report, PDF p. 227]"
+ },
+ {
+  "config": "with",
+  "id": "B08",
+  "try": 0,
+  "figure": true,
+  "flagged": [
+   "26.1"
+  ],
+  "tools": [
+   "lookup_financials",
+   "lookup_financials",
+   "lookup_financials",
+   "lookup_financials",
+   "compare_years",
+   "compare_years",
+   "search_filings",
+   "calculator"
+  ],
+  "tokens_in": 17449,
+  "answer": "**No clear sign of either**, based on Stylam’s standalone FY26 accounts:\n\n- **One-off gains:** The company reported no exceptional items. That does not rule out smaller non-recurring gains included elsewhere in income.\n- **Tax:** Tax expense was ₹53.42 crore on pre-tax profit of ₹202.89 crore—an effective rate of **26.3%**. That was slightly higher than FY25’s approximately **26.1%**, not unusually low by comparison.\n\nFY26 profit after tax was ₹149.47 crore. I could not check the detailed composition of other income for gains that were not classified as exceptional.\n\n*Source: Stylam FY26 annual report, PDF p. 150.*"
+ },
+ {
+  "config": "with",
+  "id": "B08",
+  "try": 1,
+  "figure": true,
+  "flagged": [
+   "26.1",
+   "26.3"
+  ],
+  "tools": [
+   "lookup_financials",
+   "lookup_financials",
+   "lookup_financials",
+   "lookup_financials",
+   "lookup_financials",
+   "lookup_financials",
+   "lookup_financials",
+   "search_filings"
+  ],
+  "tokens_in": 15504,
+  "answer": "**No clear evidence of a boost from either source.** On a standalone basis:\n\n- **Exceptional items:** Stylam reported none in FY26. It did report ₹6.74 crore of other income, but I could not check its components, so I cannot rule out smaller one-off gains within it.\n- **Tax:** The effective tax rate was about **26.3%** (₹53.42 crore tax on ₹202.89 crore pre-tax profit), slightly higher than FY25’s approximately **26.1%**.\n\nFY26 after-tax profit was ₹149.47 crore. These figures are from Stylam’s FY26 annual report, PDF p. 150."
+ },
+ {
+  "config": "with",
+  "id": "B08",
+  "try": 2,
+  "figure": true,
+  "flagged": [
+   "26.1",
+   "26.3"
+  ],
+  "tools": [
+   "lookup_financials",
+   "lookup_financials",
+   "lookup_financials",
+   "lookup_financials",
+   "search_filings",
+   "compare_years",
+   "compare_years",
+   "compare_years"
+  ],
+  "tokens_in": 19312,
+  "answer": "**There’s no clear evidence of either in the headline figures.** On a standalone basis:\n\n- Stylam reported **no exceptional items** in FY26. Other income fell from ₹7.44 crore in FY25 to ₹6.74 crore in FY26, rather than boosting growth.\n- Tax expense was ₹53.42 crore on pre-tax profit of ₹202.89 crore—an effective rate of **26.3%**, versus about **26.1%** in FY25. It was not unusually low relative to the prior year.\n\nPre-tax profit rose 23.1% to ₹202.89 crore, while after-tax profit was ₹149.47 crore. The reported improvement therefore does not appear to be driven by an exceptional gain or a lower tax rate.\n\nI could not check the detailed breakdown of other income or whether any gains classified outside exceptional items were non-recurring.  \n*Source: Stylam FY26 annual report, PDF p. 150.*"
+ }
+]

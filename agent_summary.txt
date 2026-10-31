@@ -1,0 +1,11 @@
+Run 2026-10-22, metric names as the table keys (cfo, cash, pbt...). Table questions rerun with plain names: agent_summary_table.txt
+Agent on 40 golden questions, model Qwen/Qwen2.5-0.5B-Instruct, limits: 6 model calls, 6 tool calls
+type             n  any tool  first fits   figure  calls  tokens      s
+calculation     12        11           1     0/12    2.0    2010     19
+fact             8         7           2      2/7    1.9    2160     27
+multi-hop        6         5           1      1/6    2.0    2194     28
+not in filings   4         4           4      1/4    2.0    2444     28
+table           10         9           7     0/10    1.9    1962     25
+all             40        36          15     4/39    1.9    2099     24
+stopped by: the model wrote no tool call 40
+numbers not from a tool: 8 answers; advice check failed: 0

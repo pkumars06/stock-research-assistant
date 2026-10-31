@@ -1,0 +1,133 @@
+id,type,tools,first_tool,first_tool_fits,stopped_by,model_calls,prompt_tokens,output_tokens,seconds,has_expected_figure,says_insufficient,numbers_not_from_a_tool,advice_ok,run_id,answer
+S01,fact,search_filings search_filings,search_filings,True,the model wrote no tool call,3,6135,149,45.4,False,False,,True,ace05d2a9dcb,"Stylam’s FY26 standalone financial statements were audited by **Mittal Goel & Associates**, Chartered Accountants. Sandeep Kumar Goel signed the report as partner.
+
+Source: Stylam FY26 annual report, PDF p. 142 (printed p. 159)."
+S02,table,lookup_financials lookup_financials,lookup_financials,True,the model wrote no tool call,3,3417,136,6.8,True,False,,True,05f321811f48,"Stylam’s standalone net cash from operating activities was:
+
+- **FY26:** ₹177.08 crore
+- **FY25:** ₹107.46 crore
+
+Source: Stylam FY26 annual report, PDF p. 151 (printed p. 168)."
+S03,calculation,lookup_financials lookup_financials calculator,lookup_financials,True,the model wrote no tool call,4,4718,167,8.3,True,False,,True,b8ff52111643,"Stylam’s FY26 operating cash flow-to-profit after tax ratio was **1.18×**, based on standalone operating cash flow of ₹177.08 crore and profit after tax of ₹149.47 crore.
+
+Source: Stylam FY26 annual report, PDF pp. 150–151."
+S04,calculation,compare_years,compare_years,True,the model wrote no tool call,2,2211,108,4.6,True,False,,True,b65841ba6fda,"Stylam’s standalone revenue grew **10.2%** in FY26, rising by ₹104.20 crore to ₹1,129.29 crore from ₹1,025.09 crore in FY25.
+
+Source: Stylam FY26 annual report, PDF page 150 (printed page 167)."
+S05,calculation,compare_years,compare_years,True,the model wrote no tool call,2,2246,120,4.5,True,False,,True,c3909c8c6720,"Stylam’s standalone contingent liabilities were **₹15.62 crore** at 31 March 2026, down from ₹35.93 crore a year earlier. That was a decrease of ₹20.31 crore, or 56.5%.
+
+Source: Stylam FY26 annual report, PDF p. 174 (printed p. 191)."
+S06,calculation,search_filings,search_filings,False,the model wrote no tool call,2,3012,89,5.6,False,False,,True,07870fc32b5e,"Exports accounted for **75% of Stylam’s FY26 sales**, according to management. The remaining 25% came from domestic sales.
+
+Source: Stylam Industries Q4 FY26 earnings call, PDF p. 12."
+S07,multi-hop,search_filings search_filings calculator calculator calculator,search_filings,True,the model wrote no tool call,6,17741,288,15.4,True,False,,True,1bab52eb2a72,"**Yes.** As of 31 March 2026, Stylam’s Advance Licence export obligation was ₹1,064.51 crore. Its FY26 export sales were ₹831 crore—so the obligation was about **1.28 years of exports**, or 28% more than that year’s sales.
+
+The obligation is a commitment, not necessarily an amount due within one year. (Source: Stylam FY26 annual report, PDF pp. 174 and 9.)"
+S08,fact,search_filings,search_filings,True,the model wrote no tool call,2,3342,100,5.7,True,False,,True,5f7aea2c3c98,"Aica Kogyo offered **₹2,250 per share** for up to **44,06,496 Stylam shares**, representing 26% of the voting share capital. (Stylam filing dated 10 April 2026, PDF p. 2.)"
+S09,multi-hop,search_filings search_filings search_filings search_filings search_filings search_filings,search_filings,True,the model wrote no tool call,7,29515,389,24.0,True,False,,True,8c1e589836ef,"- **First stated start:** In its 26 May 2025 results, Stylam said commercial operations were expected to begin by **October 2025**. (Q4 FY25 results, PDF p16)
+- **Actual start:** Commercial production began on **22 September 2026**. (22 September 2026 filing, PDF p1)"
+S10,table,lookup_financials lookup_financials,lookup_financials,True,the model wrote no tool call,3,3414,137,6.1,True,False,,True,ee25ae3b6af1,"Stylam’s standalone capital work in progress was:
+
+- **FY26:** ₹221.45 crore
+- **FY25:** ₹83.05 crore
+
+Source: Stylam FY26 annual report, PDF p. 149 (printed p. 166)."
+S11,calculation,compare_years,compare_years,True,the model wrote no tool call,2,2214,102,4.2,True,False,,True,cd4dee3fc02c,"Stylam’s standalone basic earnings per share grew **23.2%** in FY26, rising by ₹16.59 from ₹71.43 to ₹88.02.
+
+Source: Stylam FY26 annual report, PDF p. 150 (printed p. 167)."
+S12,calculation,search_filings search_filings search_filings compare_years calculator calculator calculator calculator,search_filings,False,"model call limit, then a final answer without tools",9,43375,565,28.0,True,False,,True,75b60a60adcb,"Stylam’s **standalone profit before tax grew 57.7%** year over year, from ₹41.25 crore in Q1 FY26 to ₹65.04 crore in Q1 FY27—an increase of ₹23.79 crore. [Source: Stylam Q1 FY27 results, PDF p. 4]
+
+I could not independently cross-check the quarterly figures against another source."
+S13,not in filings,search_filings search_filings search_filings search_filings,search_filings,True,the model wrote no tool call,5,15996,238,16.2,False,True,,True,43bf856d9d64,Insufficient evidence in the filings. I could not find a transcript of Stylam’s Q2 FY26 earnings call in the available filings.
+S14,calculation,search_filings compare_years compare_years search_filings calculator calculator,search_filings,False,the model wrote no tool call,7,16531,592,20.1,True,False,,True,dd1526fcd94b,"Stylam’s domestic sales **fell 5.1%**, from ₹314 crore in FY25 to ₹298 crore in FY26. Export sales **rose 13.7%**, from ₹731 crore to ₹831 crore.
+
+Source: Stylam Industries Investor deck Q4 FY26, PDF p. 19. Percentages calculated from the reported figures."
+S15,not in filings,search_filings search_filings,search_filings,True,the model wrote no tool call,3,6601,142,9.2,False,True,,True,73e69fdccc14,Insufficient evidence in the filings to say what share price Stylam expects by FY28.
+P01,fact,search_filings lookup_financials,search_filings,True,the model wrote no tool call,3,5691,213,8.8,True,False,,True,920908e1fad8,"Speciality reported an **exceptional cost of ₹334.38 lakh** in Q3 FY26. It related to a past-period employee benefit liability calculated under the new Labour Codes, which took effect on 21 November 2025.
+
+Source: Speciality Restaurants Q3 FY26 results, filed 10 February 2026, PDF p. 4."
+P02,fact,search_filings,search_filings,True,the model wrote no tool call,2,3153,164,8.7,True,False,,True,934fbe2f5801,"On 25 September 2026, the Enforcement Directorate ordered the provisional attachment of ₹14.50 crore from Speciality Restaurants’ account for 180 days, as part of a money-laundering investigation. The amount was money the company had forfeited from warrant allottees. (Speciality filing, 26 September 2026, pp. 1–2.)
+
+Speciality later clarified that it was not an accused in the investigation; it was a noticee because it held the attached amount. (Speciality filing, 28 September 2026, p. 1.)"
+P03,multi-hop,search_filings search_filings,search_filings,True,the model wrote no tool call,3,6289,220,9.9,True,False,,True,eb04a186ce98,"The money came from **investors who paid Speciality Restaurants 25% upfront for convertible warrants**. The company forfeited the payment when those investors did not exercise their conversion option within 18 months.
+
+The Enforcement Directorate provisionally attached the forfeited amount in a company bank account. Speciality said it was not named as an accused in the investigation.  
+Source: Speciality Restaurants filings, 26 September 2026, PDF p2, and 28 September 2026, PDF p1."
+P04,table,lookup_financials,lookup_financials,True,the model wrote no tool call,2,2152,85,3.9,True,False,,True,9488b8b9be75,"Speciality’s standalone net cash from operating activities in FY26 was **₹84.33 crore**.
+
+Source: Speciality FY26 annual report, PDF p. 141 (printed p. 137)."
+P05,calculation,lookup_financials lookup_financials calculator,lookup_financials,True,the model wrote no tool call,4,4718,164,8.5,True,False,,True,c4410dded316,"Speciality’s FY26 **standalone operating cash flow-to-profit-after-tax ratio was 3.67 times**: ₹84.33 crore divided by ₹22.95 crore.
+
+Source: Speciality FY26 annual report, PDF pp. 141 and 140, respectively."
+P06,table,lookup_financials search_filings search_filings,lookup_financials,True,the model wrote no tool call,4,8554,291,13.5,True,False,,True,ac88e057645b,"At 31 March 2026, Speciality’s standalone contingent liabilities were:
+
+| Type | ₹ lakh |
+|---|---:|
+| Sales tax demands | 1,306.90 |
+| Income tax demands | 9.24 |
+| Service tax demands | 787.54 |
+| Goods and service tax demands | 795.32 |
+| **Total** | **2,899.00** |
+
+The total was **₹28.99 crore**. Source: Speciality Restaurants FY26 annual report, PDF p179 (printed p175); the sales tax figure also appears in the consolidated statement on PDF p231 (printed p227)."
+P07,table,search_filings calculator,search_filings,False,the model wrote no tool call,3,6201,162,8.3,True,False,,True,9b7668c75862,"Dine-in accounted for **69.99%** of Speciality’s total sales in Q4 FY26, down from **72.55%** a year earlier—a decline of **2.56 percentage points**.
+
+Source: Speciality Restaurants Q4 FY26 investor deck, p. 13."
+P08,fact,search_filings,search_filings,True,the model wrote no tool call,2,3038,88,6.0,True,False,,True,61f4ac0e7a6e,"Speciality reported **11.35% same-store sales growth** across its restaurants and confectioneries in Q1 FY27.
+
+Source: Speciality Restaurants Q1 FY27 press release, PDF p. 2."
+P09,fact,search_filings search_filings calculator,search_filings,True,the model wrote no tool call,4,9497,266,13.3,,False,,True,2e2178234706,"Speciality planned **8 restaurants, 15 Walters outlets and 10 Sweet Bengal outlets** for FY27. Those categories add up to 33, although management described the total as “almost 32.”
+
+It estimated **₹37 crore of capex**: approximately ₹32 crore for restaurants and ₹5 crore for the other outlets. Its annual report later described capex of around ₹40 crore.
+
+Sources: Speciality Restaurants Q4 FY26 earnings call, p. 12; FY26 annual report, PDF p. 98."
+P10,table,search_filings search_filings search_filings search_filings calculator,search_filings,False,the model wrote no tool call,6,24932,408,19.9,True,False,,True,8cdcb5baf56b,"Speciality reported **₹4.494 crore** in rent expenses to Situations Advertising & Marketing Services Private Limited in FY25.
+
+Source: Speciality Restaurants FY25 annual report, PDF pages 147 and 226."
+P11,table,lookup_financials lookup_financials lookup_financials search_filings search_filings calculator calculator,lookup_financials,True,the model wrote no tool call,8,19287,452,23.7,False,False,,True,5f26f5661042,"Speciality recorded a **net tax credit**, rather than a tax expense, in FY23. On a standalone basis, profit before tax was ₹62.23 crore and profit after tax was ₹95.58 crore. The difference was a ₹33.35 crore tax credit. (FY24 annual report, PDF p148)
+
+The credit mainly came from recognising deferred tax assets for prior years’ deductible differences, after the company had certainty that they could be set off against future taxable income. The deferred tax credit was ₹33.411 crore, partly offset"
+P12,table,lookup_financials,lookup_financials,True,the model wrote no tool call,2,2139,83,4.5,True,False,,True,d8ea6b70ebaf,"Speciality’s standalone profit before tax in FY25 was **₹28.1 crore**.
+
+Source: Speciality FY26 annual report, PDF p. 140 (printed p. 136)."
+P13,multi-hop,search_filings search_filings search_filings calculator,search_filings,True,the model wrote no tool call,5,15356,268,15.9,True,False,,True,b294d08695c2,"Speciality targeted **around 20% revenue growth for FY27**. (FY26 annual report, p. 98)
+
+In Q1 FY27, revenue from operations grew **16.8% year-on-year**—about 3.2 percentage points below the full-year target. One quarter alone does not determine the full-year outcome. (Q1 FY27 press release, p. 2)"
+P14,not in filings,search_filings search_filings search_filings,search_filings,True,the model wrote no tool call,4,11302,238,13.4,True,True,,True,4a60d53cac7d,"**Insufficient evidence in the filings** that management discussed the Enforcement Directorate order on the Q1 FY27 call.
+
+The Q1 call transcript was filed on **13 August 2026**. The ED’s provisional attachment order was dated **25 September 2026**, after that call. (Sources: Speciality Restaurants Q1 FY27 earnings-call transcript, PDF p1; filing dated 26 September 2026, PDF p1.)"
+P15,calculation,compare_years,compare_years,True,the model wrote no tool call,2,2212,108,4.6,True,False,,True,7b7f01222504,"Speciality’s standalone profit before tax grew **4.8%** in FY26, from ₹28.10 crore to ₹29.45 crore—an increase of ₹1.35 crore.
+
+Source: Speciality FY26 annual report, PDF p. 140 (printed p. 136)."
+P16,not in filings,search_filings lookup_financials,search_filings,True,the model wrote no tool call,3,7146,159,8.0,False,True,,True,c797ec47f515,"Insufficient evidence in the filings. The available Speciality investor deck reports through Q1 FY27, not Q2 FY27. (Q1 FY27 investor deck, p. 11)"
+X01,multi-hop,lookup_financials lookup_financials calculator,lookup_financials,False,the model wrote no tool call,4,4735,171,8.9,True,False,,True,6852e26aa4bc,"**Stylam** generated ₹92.75 crore more in operating cash flow in FY26, on a standalone basis.
+
+- Stylam: ₹177.08 crore. (FY26 annual report, PDF p151)
+- Speciality: ₹84.33 crore. (FY26 annual report, PDF p141)"
+B01,fact,search_filings search_filings,search_filings,True,the model wrote no tool call,3,5859,235,10.0,False,False,,True,1475d7556bc5,"Stylam makes **surface materials** for interiors and exteriors. These include decorative and compact laminates, acrylic solid surfaces, exterior cladding, restroom cubicles and lockers. Its laminates are used for furniture, wall panels and countertops. (Stylam FY26 annual report, PDF pp. 35, 38.)
+
+It sells in India and internationally. In FY26, it reported serving 28 Indian states and 80 countries; exports accounted for 73.60% of turnover. Its markets include Europe, the Middle East, the Far Eas"
+B02,multi-hop,search_filings lookup_financials lookup_financials lookup_financials lookup_financials search_filings search_filings,search_filings,True,the model wrote no tool call,8,22106,449,22.0,True,False,,True,4f9b16efe6b7,"**Yes.** Stylam’s FY25 annual report calls it a “zero debt company,” but its standalone accounts show **₹36.07 crore of borrowings at 31 March 2025**. These were short-term borrowings; the report showed no long-term borrowings. (FY25 annual report, PDF p4; FY26 annual report, PDF pp149 and 178.)
+
+Cash and cash equivalents were ₹48.90 crore at that date—more than the borrowings. That distinction may explain the description, but the filings do not establish that as the company’s reason. (FY26 annu"
+B03,table,search_filings lookup_financials search_filings,search_filings,False,the model wrote no tool call,4,9016,190,13.5,False,False,,True,b08f8bc3425f,"**No bank loans were reported.** Speciality’s FY26 auditor said the company had not taken loans or borrowings from banks. Its standalone balance sheet showed no borrowings as of 31 March 2026.
+
+Source: Speciality FY26 annual report, PDF pp. 135 and 139."
+B04,calculation,lookup_financials lookup_financials search_filings calculator search_filings,lookup_financials,True,the model wrote no tool call,6,11169,347,18.0,True,False,,True,0d806bf5106e,"A **contingent liability** is a potential obligation that may require payment, but is uncertain. Stylam discloses such obligations rather than making a provision for them. [Stylam FY26 annual report, PDF p158]
+
+For Stylam, it was **₹15.62 crore** on a standalone basis at the end of FY26. That is about **1.9% of its ₹806.8 crore net worth**, so it was relatively small compared with net worth. It is not necessarily an amount the company will have to pay. [Stylam FY26 annual report, PDF pp174 and 1"
+B05,calculation,lookup_financials lookup_financials calculator,lookup_financials,True,the model wrote no tool call,4,4749,177,9.6,True,False,,True,0a8ad14635bc,"In FY26, Speciality’s standalone contingent liabilities were **₹28.99 crore**, or **8.4%** of its net worth of ₹347.00 crore.
+
+Sources: Speciality FY26 annual report, PDF pp. 179 and 139, respectively."
+B06,fact,search_filings search_filings search_filings search_filings search_filings search_filings,search_filings,True,the model wrote no tool call,7,26089,443,25.4,False,False,,True,fe6130901e17,"Yes. The auditor raised an **audit-trail concern**: the accounting software’s edit log was not enabled at the database level. The auditor therefore could not confirm the effectiveness of that control for the audit period. (Speciality FY26 annual report, PDF p132.)
+
+The auditor also identified **revenue recognition** as a key audit matter. The volume of transactions across locations creates a risk that the timing or amount of revenue could be misstated. This was an audit risk, not a finding that "
+B07,table,search_filings search_filings search_filings search_filings search_filings search_filings search_filings,search_filings,False,the model wrote no tool call,8,41479,575,29.6,False,False,,True,7eaae44639c9,"**Yes.** Speciality reports transactions with Situations Advertising & Marketing Services, which its annual report describes as founder and managing director Anjan Chatterjee’s own entity. [FY26 annual report, p. 22]
+
+In FY26, Speciality recorded retainership fees and advertising expenses with Situations. [FY26 annual report, p. 170] It also reported rent expenses with Situations in FY25. [FY25 annual report, p. 223]
+
+Speciality says its audit committee approved related-party transactions. It al"
+B08,calculation,lookup_financials lookup_financials lookup_financials lookup_financials lookup_financials search_filings search_filings lookup_financials,lookup_financials,True,"model call limit, then a final answer without tools",9,20401,750,27.3,True,False,26.1 26.3,True,c82dcb4f7c82,"**A small one-off gain helped, but an unusually low tax rate did not appear to boost FY26 profit.**
+
+- **Asset-sale gain:** Stylam reported ₹3.13 crore of profit on the sale of property, plant and equipment, up from ₹0.39 crore in FY25. It was included in other income, not reported as an exceptional item, and represented about 1.5% of FY26 pre-tax profit.
+- **Tax:** Tax expense was ₹53.42 crore on pre-tax profit of ₹202.89 crore—an effective rate of **26.3%**, broadly in line with approximately "

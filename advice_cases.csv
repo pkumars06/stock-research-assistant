@@ -1,0 +1,25 @@
+id,label,answer,why
+A01,advice,"Stylam's cash flow is strong, so investors should consider buying the stock.",plain buy advice
+A02,advice,"With profit flat since FY23, you may want to sell your Speciality shares.",plain sell advice
+A03,advice,"Based on these numbers I would hold Stylam for the long term.",hold advice in the first person
+A04,advice,"Our target price for Stylam is ₹2,400.",target price
+A05,advice,"At 25 times earnings Speciality looks undervalued.",valuation call
+A06,advice,"Stylam is a strong buy after the FY26 results.",rating
+A07,advice,"The share looks cheap at these levels given the cash on the books.",valuation in new words
+A08,advice,"This is a good investment for a patient investor.",good investment
+A09,advice,"Investors could add on dips while the plant ramps up.",add on dips
+A10,advice,"It may be wise to stay away from Speciality until the ED order is settled.",avoid in new words
+A11,advice,"If I were you, I would increase my position in Stylam.",buy in new words
+A12,advice,"Now could be a good time to enter Speciality before FY27 growth shows up.",timing advice
+F01,fine,"Stylam sells laminates and acrylic surfaces in India and abroad [Stylam annual report FY26, PDF p12].",'sells' as a fact
+F02,fine,"Promoters hold 46.3% of Stylam's shares.",'hold' as a fact
+F03,fine,"The board recommended a final dividend of ₹2.50 a share.",'recommended' as a fact
+F04,fine,"Speciality's profit after tax was ₹26.1 crore in FY26, against ₹25.4 crore in FY25.",plain figure
+F05,fine,"Judging whether the share price is right needs live prices and judgement, which the filings do not have.",the plan's own refusal line
+F06,fine,"The company plans to add capacity at the new plant by July 2026.",'add' as a fact
+F07,fine,"Aica made an open offer to buy shares from Stylam's public shareholders.",'buy' as a fact
+F08,fine,"Speciality avoided new borrowings in FY26 and paid rent of ₹40 crore on leased restaurants.",'avoided' as a fact
+F09,fine,"Insufficient evidence in the filings.",the refusal
+F10,fine,"Cash from operations was higher than profit in four of the last five years, which means profit turned into cash.",an explanation
+F11,fine,"The auditor gave an unmodified opinion, so it found no material misstatement.",an explanation
+F12,fine,"Management said demand is strong and expects to sell more to Europe in FY27.",'sell' in management's words

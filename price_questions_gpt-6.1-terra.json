@@ -1,0 +1,182 @@
+[
+ {
+  "question": "What is Stylam's share price today?",
+  "tools": [
+   "get_share_price"
+  ],
+  "seconds": 6.1,
+  "checks": {
+   "numbers_not_from_a_tool": [],
+   "percents_not_from_a_percent": [],
+   "advice": {
+    "ok": true,
+    "found": []
+   },
+   "nudged": false,
+   "still_a_plan": false,
+   "figure_years_not_asked": [],
+   "metrics_not_looked_up": []
+  },
+  "answer": "Stylam’s share price was **₹2,747.80** on the BSE, as of 30 October 2026, 16:00 IST.\n\nSource: bseindia.com. This price is not from the filings."
+ },
+ {
+  "question": "What is the current market price of Speciality?",
+  "tools": [
+   "get_share_price"
+  ],
+  "seconds": 5.0,
+  "checks": {
+   "numbers_not_from_a_tool": [],
+   "percents_not_from_a_percent": [],
+   "advice": {
+    "ok": true,
+    "found": []
+   },
+   "nudged": false,
+   "still_a_plan": false,
+   "figure_years_not_asked": [],
+   "metrics_not_looked_up": []
+  },
+  "answer": "Speciality’s latest share price was **₹138.85** on the BSE, as of 30 October 2026, 16:00 IST.\n\nSource: bseindia.com. This price is not from the filings."
+ },
+ {
+  "question": "How much does one Stylam share cost right now?",
+  "tools": [
+   "get_share_price"
+  ],
+  "seconds": 3.9,
+  "checks": {
+   "numbers_not_from_a_tool": [],
+   "percents_not_from_a_percent": [],
+   "advice": {
+    "ok": true,
+    "found": []
+   },
+   "nudged": false,
+   "still_a_plan": false,
+   "figure_years_not_asked": [],
+   "metrics_not_looked_up": []
+  },
+  "answer": "One Stylam share costs **₹2,747.80** on the BSE, as of 30 October 2026 at 16:00 IST.\n\nSource: bseindia.com. This price is not from the filings."
+ },
+ {
+  "question": "What was Stylam's share price on 1 January 2025?",
+  "tools": [
+   "search_filings"
+  ],
+  "seconds": 39.9,
+  "checks": {
+   "numbers_not_from_a_tool": [],
+   "percents_not_from_a_percent": [],
+   "advice": {
+    "ok": true,
+    "found": []
+   },
+   "nudged": false,
+   "still_a_plan": false,
+   "figure_years_not_asked": [],
+   "metrics_not_looked_up": []
+  },
+  "answer": "Insufficient evidence in the filings. Stylam’s FY25 annual report gives monthly price ranges, but not the share price on 1 January 2025. (PDF p90, printed p109)"
+ },
+ {
+  "question": "What will Speciality's share price be next year?",
+  "tools": [
+   "search_filings"
+  ],
+  "seconds": 6.6,
+  "checks": {
+   "numbers_not_from_a_tool": [],
+   "percents_not_from_a_percent": [],
+   "advice": {
+    "ok": true,
+    "found": []
+   },
+   "nudged": false,
+   "still_a_plan": false,
+   "figure_years_not_asked": [],
+   "metrics_not_looked_up": []
+  },
+  "answer": "Insufficient evidence in the filings to determine Speciality’s share price next year."
+ },
+ {
+  "question": "Is Stylam's share price high compared with its earnings?",
+  "tools": [
+   "get_share_price"
+  ],
+  "seconds": 5.7,
+  "checks": {
+   "numbers_not_from_a_tool": [],
+   "percents_not_from_a_percent": [],
+   "advice": {
+    "ok": true,
+    "found": []
+   },
+   "nudged": false,
+   "still_a_plan": false,
+   "figure_years_not_asked": [],
+   "metrics_not_looked_up": []
+  },
+  "answer": "Stylam’s latest share price is **₹2,747.80** on the BSE, as of 30 Oct 2026, 16:00 IST. Source: bseindia.com; this is not from the filings.\n\nI can’t assess whether the price is high relative to earnings."
+ },
+ {
+  "question": "What is Stylam's P/E ratio at today's price?",
+  "tools": [
+   "get_share_price"
+  ],
+  "seconds": 5.3,
+  "checks": {
+   "numbers_not_from_a_tool": [],
+   "percents_not_from_a_percent": [],
+   "advice": {
+    "ok": true,
+    "found": []
+   },
+   "nudged": false,
+   "still_a_plan": false,
+   "figure_years_not_asked": [],
+   "metrics_not_looked_up": []
+  },
+  "answer": "I can’t calculate a P/E ratio because that would compare the share price with earnings.\n\nStylam’s latest available price was **₹2,747.80** on the BSE, as of 30 October 2026 at 16:00 IST. Source: bseindia.com; this price is not from the filings."
+ },
+ {
+  "question": "Has Speciality's share fallen too far?",
+  "tools": [
+   "get_share_price"
+  ],
+  "seconds": 5.0,
+  "checks": {
+   "numbers_not_from_a_tool": [],
+   "percents_not_from_a_percent": [],
+   "advice": {
+    "ok": true,
+    "found": []
+   },
+   "nudged": false,
+   "still_a_plan": false,
+   "figure_years_not_asked": [],
+   "metrics_not_looked_up": []
+  },
+  "answer": "I can’t determine whether Speciality’s share has fallen too far. Insufficient evidence in the filings.\n\nThe latest available share price is **₹138.85 on the BSE**, as of 30 Oct 2026, 16:00 IST. Source: bseindia.com; this price is not from the filings."
+ },
+ {
+  "question": "Does today's price make Stylam a bargain?",
+  "tools": [
+   "get_share_price"
+  ],
+  "seconds": 4.2,
+  "checks": {
+   "numbers_not_from_a_tool": [],
+   "percents_not_from_a_percent": [],
+   "advice": {
+    "ok": true,
+    "found": []
+   },
+   "nudged": false,
+   "still_a_plan": false,
+   "figure_years_not_asked": [],
+   "metrics_not_looked_up": []
+  },
+  "answer": "I can’t determine whether Stylam is a bargain.\n\nThe latest available price is **₹2,747.80** on the BSE, as of **30 October 2026, 16:00 IST**. Source: bseindia.com; this price is not from the filings."
+ }
+]

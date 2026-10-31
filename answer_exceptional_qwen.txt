@@ -1,0 +1,32 @@
+Q: Why did Speciality report an exceptional item in FY26?
+filters: {'stocks': ['Speciality'], 'fy': (25, 27)}
+
+A (Qwen/Qwen2.5-0.5B-Instruct, 5576 tokens in, 89.5 s):
+In FY26, Speciality reported an exceptional item of 334.38, which represents a reduction in the net profit attributable to the 
+owner of the company. This extraordinary event occurred due to changes in the accounting policies and practices implemented by the 
+company, leading to a higher proportion of extraordinary expenses compared to the rest of the expenses. Specifically:
+
+1. **Change in Accounting Policies**: The company introduced new labor codes in FY26, resulting in higher employee benefits expenses.
+
+2. **Higher Proportion of Extraordinary Expenses**: As a result of these changes, the company saw a higher proportion of extraordinary expenses compared 
+   to the rest of the expenses, particularly in the first half of FY26.
+
+3. **Impact on Net Profit**: This led to a larger net profit attributable to the owner of the company, reflecting the impact of the extraordinary 
+   item on the company's profitability.
+
+4. **Reasonable Expectations**: Given the nature of the extraordinary item, the board of directors likely considered it necessary to adjust the 
+   net profit attributable to the owner of the company to reflect the impact of the change in accounting policies.
+
+Therefore, the extraordinary item was justified by the need to correct the impact of the
+
+Number check: every number appears in a source
+
+Sources sent:
+  [1] Speciality Restaurants Annual report FY26, filed 2026-08-18, PDF p60 (printed 56)  (children ranked [1], 1600 characters)
+  [2] Speciality Restaurants Annual report FY26, filed 2026-08-18, PDF p46 (printed 42)  (children ranked [2, 7], 1600 characters)
+  [3] Speciality Restaurants Annual report FY26, filed 2026-08-18, PDF p7 (printed 3)  (children ranked [3], 1600 characters)
+  [4] Speciality Restaurants Annual report FY26, filed 2026-08-18, PDF p102 (printed 98)  (children ranked [4, 5], 1600 characters)
+  [5] Speciality Restaurants Results Q1 FY27, filed 2026-08-10, PDF p7  (children ranked [6], 1600 characters)
+  [6] Speciality Restaurants Investor deck Q1 FY27, filed 2026-08-10, PDF p9  (children ranked [8], 1261 characters)
+  [7] Speciality Restaurants Results Q4 FY26, filed 2026-05-19, PDF p9  (children ranked [9], 1600 characters)
+  [8] Speciality Restaurants Annual report FY26, filed 2026-08-18, PDF p185 (printed 181)  (children ranked [10], 1600 characters)

@@ -1,0 +1,10 @@
+Agent on 40 golden questions, model gpt-6.1-terra, limits: 8 model calls, 8 tool calls
+type             n  any tool  first fits   figure  calls  tokens      s
+calculation     12        12           9    11/12    4.4    9796     12
+fact             8         8           8      4/7    3.2    7850     15
+multi-hop        6         6           5      6/6    5.5   15957     16
+not in filings   4         4           4      1/4    3.8   10261     12
+table           10        10           6     7/10    4.3   12059     13
+all             40        40          32    29/39    4.2   10943     13
+stopped by: the model wrote no tool call 38, model call limit, then a final answer without tools 2
+numbers not from a tool: 1 answers; advice check failed: 0

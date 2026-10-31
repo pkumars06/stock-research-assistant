@@ -1,0 +1,10 @@
+Agent on 40 golden questions, model gpt-4o-mini, limits: 8 model calls, 8 tool calls
+type             n  any tool  first fits   figure  calls  tokens      s
+calculation     12        12           9    10/12    3.9    6573      6
+fact             8         8           8      3/7    2.1    2990      8
+multi-hop        6         6           4      6/6    2.8    3916      5
+not in filings   4         4           4      2/4    3.8   10652     10
+table           10        10           6     8/10    2.5    3188      4
+all             40        40          31    29/39    3.0    5020      6
+stopped by: the model wrote no tool call 38, model call limit, then a final answer without tools 2
+numbers not from a tool: 0 answers; advice check failed: 0

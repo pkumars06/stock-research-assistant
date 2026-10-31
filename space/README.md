@@ -1,5 +1,5 @@
 ---
-title: Equity Filings Assistant
+title: Stock Research Assistant
 emoji: 📄
 colorFrom: blue
 colorTo: gray

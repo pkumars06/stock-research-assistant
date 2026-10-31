@@ -1,4 +1,4 @@
-# Equity Filings Assistant
+# Stock Research Assistant
 
 Questions answered from the public BSE filings of two Indian companies, Stylam Industries and Speciality Restaurants, with page citations. A cohort capstone project. It explains what the filings say. It is not investment advice.
 

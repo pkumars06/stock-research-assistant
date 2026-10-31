@@ -356,8 +356,8 @@ def agent_answer(question, used, stock=None):
     yield answer, "\n".join(steps), used
 
 
-with gr.Blocks(title="Equity Filings Assistant") as demo:
-    gr.Markdown(f"# Equity Filings Assistant\n{FULL_NAME['Stylam']} and {FULL_NAME['Speciality']}, "
+with gr.Blocks(title="Stock Research Assistant") as demo:
+    gr.Markdown(f"# Stock Research Assistant\n{FULL_NAME['Stylam']} and {FULL_NAME['Speciality']}, "
                 f"from their public filings on BSE, with the page for every fact.\n\n*{NOT_ADVICE}*")
     stock = gr.Radio(STOCKS, value=STOCKS[0], label="Company (all tabs; a question that names no company is about this one)")
     with gr.Tab("1. What the company does"):

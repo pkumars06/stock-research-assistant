@@ -2,7 +2,7 @@
 
 Questions answered from the public BSE filings of two Indian companies, Stylam Industries and Speciality Restaurants, with page citations. A cohort capstone project. It explains what the filings say. It is not investment advice.
 
-- **Live app:** https://huggingface.co/spaces/pkumarshon/equity-filings-assistant (behind a password)
+- **Live app:** https://pkumarshon-equity-filings-assistant.hf.space (behind a password)
 - **Model:** `gpt-6.1-terra`, through OpenAI's Responses API
 
 ## How it works
